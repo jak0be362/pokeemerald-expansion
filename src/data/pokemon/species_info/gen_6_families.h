@@ -4157,8 +4157,8 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sSliggooLevelUpLearnset,
         .teachableLearnset = sSliggooTeachableLearnset,
         .formSpeciesIdTable = sSliggooFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL_RAIN, 50, SPECIES_GOODRA},
-                                {EVO_LEVEL_FOG, 50, SPECIES_GOODRA}),
+        .evolutions = EVOLUTION({EVO_LEVEL_RAIN, 48, SPECIES_GOODRA},
+                                {EVO_LEVEL_FOG, 48, SPECIES_GOODRA}),
     },
 
     [SPECIES_GOODRA] =
@@ -4484,7 +4484,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sPhantumpTeachableLearnset,
         .eggMoveLearnset = sPhantumpEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_TREVENANT},
-                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_TREVENANT}),
+                                {EVO_LEVEL, 32, SPECIES_TREVENANT}),
     },
 
     [SPECIES_TREVENANT] =
@@ -4612,7 +4612,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .eggMoveLearnset = sPumpkabooEggMoveLearnset,
         .formSpeciesIdTable = sPumpkabooFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_TRADE, 0, SPECIES_GOURGEIST_AVERAGE},
-                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GOURGEIST_AVERAGE}),
+                                {EVO_LEVEL, 32, SPECIES_GOURGEIST_AVERAGE}),
         .randomizerMode = MON_RANDOMIZER_RANDOM_FORM,
     },
 

@@ -10041,7 +10041,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         )
         .levelUpLearnset = sShelgonLevelUpLearnset,
         .teachableLearnset = sShelgonTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 50, SPECIES_SALAMENCE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 46, SPECIES_SALAMENCE}),
     },
 
     [SPECIES_SALAMENCE] =

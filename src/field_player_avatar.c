@@ -1725,7 +1725,7 @@ static void Task_WaitStopSurfing(u8 taskId)
 
 #define FISHING_PROXIMITY_BOOST 4
 #define FISHING_STICKY_BOOST    36
-#define FISHING_DEFAULT_ODDS    50
+#define FISHING_DEFAULT_ODDS    0
 
 enum
 {
@@ -1824,7 +1824,7 @@ static bool32 Fishing_WaitBeforeDots(struct Task *task)
 
     // Wait one second
     task->tFrameCounter++;
-    if (task->tFrameCounter >= 60)
+    if (task->tFrameCounter >= 10)
         task->tStep = FISHING_INIT_DOTS;
     return FALSE;
 }
@@ -1945,9 +1945,9 @@ static bool32 Fishing_ChangeMinigame(struct Task *task)
 static bool32 Fishing_WaitForA(struct Task *task)
 {
     const s16 reelTimeouts[3] = {
-        [OLD_ROD]   = 36,
-        [GOOD_ROD]  = 33,
-        [SUPER_ROD] = 30
+        [OLD_ROD]   = 500,
+        [GOOD_ROD]  = 500,
+        [SUPER_ROD] = 500
     };
 
     AlignFishingAnimationFrames();

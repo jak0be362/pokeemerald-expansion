@@ -6039,7 +6039,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         )
         .levelUpLearnset = sArctibaxLevelUpLearnset,
         .teachableLearnset = sArctibaxTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 54, SPECIES_BAXCALIBUR}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 48, SPECIES_BAXCALIBUR}),
     },
 
     [SPECIES_BAXCALIBUR] =
