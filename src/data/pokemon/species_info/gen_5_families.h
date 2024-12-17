@@ -570,7 +570,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sDewottLevelUpLearnset,
         .teachableLearnset = sDewottTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_SAMUROTT},
-                                {EVO_NONE, 0, SPECIES_SAMUROTT_HISUI}),
+                                {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_SAMUROTT_HISUI}),
     },
 
     [SPECIES_SAMUROTT] =
@@ -2220,7 +2220,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .evYield_Speed = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FLYING),
         .abilities = { ABILITY_UNAWARE, ABILITY_KLUTZ, ABILITY_SIMPLE },
@@ -2586,7 +2586,6 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .eggMoveLearnset = sAudinoEggMoveLearnset,
         .formSpeciesIdTable = sAudinoFormSpeciesIdTable,
         .formChangeTable = sAudinoFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_AUDINO
@@ -3183,7 +3182,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .itemRare = ITEM_MENTAL_HERB,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
         .abilities = { ABILITY_LEAF_GUARD, ABILITY_CHLOROPHYLL, ABILITY_OVERCOAT },
@@ -3707,7 +3706,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sPetililTeachableLearnset,
         .eggMoveLearnset = sPetililEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_SUN_STONE, SPECIES_LILLIGANT},
-                                {EVO_NONE, 0, SPECIES_LILLIGANT_HISUI}),
+                                {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_LILLIGANT_HISUI}),
     },
 
     [SPECIES_LILLIGANT] =
@@ -3973,7 +3972,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sBasculinTeachableLearnset,
         .eggMoveLearnset = sBasculinEggMoveLearnset,
         .formSpeciesIdTable = sBasculinFormSpeciesIdTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
+        .randomizerMode = MON_RANDOMIZER_RANDOM_FORM
     },
 
 #if P_HISUIAN_FORMS
@@ -4041,7 +4040,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .formSpeciesIdTable = sBasculinFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_RECOIL_DAMAGE_MALE, 294, SPECIES_BASCULEGION_M},
                                 {EVO_RECOIL_DAMAGE_FEMALE, 294, SPECIES_BASCULEGION_F}),
-        .randomizerMode = MON_RANDOMIZER_INVALID
+        .randomizerMode = MON_RANDOMIZER_RANDOM_FORM
     },
 
     [SPECIES_BASCULEGION_M] =
@@ -11279,7 +11278,6 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sTornadusTeachableLearnset,
         .formSpeciesIdTable = sTornadusFormSpeciesIdTable,
         .formChangeTable = sTornadusFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FAMILY_TORNADUS
 
@@ -11414,7 +11412,6 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sThundurusTeachableLearnset,
         .formSpeciesIdTable = sThundurusFormSpeciesIdTable,
         .formChangeTable = sThundurusFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FAMILY_THUNDURUS
 
@@ -11680,7 +11677,6 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sLandorusTeachableLearnset,
         .formSpeciesIdTable = sLandorusFormSpeciesIdTable,
         .formChangeTable = sLandorusFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FAMILY_LANDORUS
 
@@ -11825,7 +11821,6 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sKyuremWhiteLevelUpLearnset,
         .teachableLearnset = sKyuremTeachableLearnset,
         .formSpeciesIdTable = sKyuremFormSpeciesIdTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 
     [SPECIES_KYUREM_BLACK] =
@@ -11899,7 +11894,6 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sKyuremBlackLevelUpLearnset,
         .teachableLearnset = sKyuremTeachableLearnset,
         .formSpeciesIdTable = sKyuremFormSpeciesIdTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FUSION_FORMS
 #endif //P_FAMILY_KYUREM
@@ -12028,7 +12022,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sKeldeoTeachableLearnset,
         .formSpeciesIdTable = sKeldeoFormSpeciesIdTable,
         .formChangeTable = sKeldeoFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
+
     },
 #endif //P_FAMILY_KELDEO
 
@@ -12174,7 +12168,6 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .teachableLearnset = sMeloettaTeachableLearnset,
         .formSpeciesIdTable = sMeloettaFormSpeciesIdTable,
         .formChangeTable = sMeloettaFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FAMILY_MELOETTA
 

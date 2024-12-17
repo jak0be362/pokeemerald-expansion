@@ -1734,7 +1734,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .formChangeTable = sBurmyFormChangeTable,
         .evolutions = EVOLUTION({EVO_LEVEL_FEMALE, 20, SPECIES_WORMADAM_SANDY},
                                 {EVO_LEVEL_MALE, 20, SPECIES_MOTHIM_SANDY}),
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 
     [SPECIES_BURMY_TRASH] =
@@ -1802,7 +1801,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .formChangeTable = sBurmyFormChangeTable,
         .evolutions = EVOLUTION({EVO_LEVEL_FEMALE, 20, SPECIES_WORMADAM_TRASH},
                                 {EVO_LEVEL_MALE, 20, SPECIES_MOTHIM_TRASH}),
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 
     [SPECIES_WORMADAM_PLANT] =
@@ -3009,7 +3007,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .evYield_Speed = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
-        .friendship = 0,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE),
         .abilities = { ABILITY_RUN_AWAY, ABILITY_KLUTZ, ABILITY_LIMBER },
@@ -3176,7 +3174,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sLopunnyTeachableLearnset,
         .formSpeciesIdTable = sLopunnyFormSpeciesIdTable,
         .formChangeTable = sLopunnyFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_BUNEARY
@@ -3971,7 +3968,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sGarchompTeachableLearnset,
         .formSpeciesIdTable = sGarchompFormSpeciesIdTable,
         .formChangeTable = sGarchompFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_GIBLE
@@ -3991,7 +3987,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .evYield_Attack = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 25,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
         .abilities = { ABILITY_STEADFAST, ABILITY_INNER_FOCUS, ABILITY_PRANKSTER },
@@ -4037,7 +4033,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .levelUpLearnset = sRioluLevelUpLearnset,
         .teachableLearnset = sRioluTeachableLearnset,
         .eggMoveLearnset = sRioluEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_FRIENDSHIP_DAY, 0, SPECIES_LUCARIO}),
+        .evolutions = EVOLUTION({EVO_FRIENDSHIP, 0, SPECIES_LUCARIO}),
     },
 
     [SPECIES_LUCARIO] =
@@ -4160,7 +4156,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sLucarioTeachableLearnset,
         .formSpeciesIdTable = sLucarioFormSpeciesIdTable,
         .formChangeTable = sLucarioFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_RIOLU
@@ -5005,7 +5000,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sAbomasnowTeachableLearnset,
         .formSpeciesIdTable = sAbomasnowFormSpeciesIdTable,
         .formChangeTable = sAbomasnowFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_SNOVER
@@ -5147,7 +5141,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sRotomTeachableLearnset,
         .formSpeciesIdTable = sRotomFormSpeciesIdTable,
         .formChangeTable = sRotomFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 
     [SPECIES_ROTOM_WASH] =
@@ -5214,7 +5207,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sRotomTeachableLearnset,
         .formSpeciesIdTable = sRotomFormSpeciesIdTable,
         .formChangeTable = sRotomFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 
     [SPECIES_ROTOM_FROST] =
@@ -5280,7 +5272,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sRotomTeachableLearnset,
         .formSpeciesIdTable = sRotomFormSpeciesIdTable,
         .formChangeTable = sRotomFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 
     [SPECIES_ROTOM_FAN] =
@@ -5347,7 +5338,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sRotomTeachableLearnset,
         .formSpeciesIdTable = sRotomFormSpeciesIdTable,
         .formChangeTable = sRotomFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 
     [SPECIES_ROTOM_MOW] =
@@ -5413,7 +5403,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sRotomTeachableLearnset,
         .formSpeciesIdTable = sRotomFormSpeciesIdTable,
         .formChangeTable = sRotomFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FAMILY_ROTOM
 
@@ -5776,7 +5765,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sDialgaTeachableLearnset,
         .formSpeciesIdTable = sDialgaFormSpeciesIdTable,
         .formChangeTable = sDialgaFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FAMILY_DIALGA
 
@@ -5919,7 +5907,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sPalkiaTeachableLearnset,
         .formSpeciesIdTable = sPalkiaFormSpeciesIdTable,
         .formChangeTable = sPalkiaFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FAMILY_PALKIA
 
@@ -6205,7 +6192,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sGiratinaTeachableLearnset,
         .formSpeciesIdTable = sGiratinaFormSpeciesIdTable,
         .formChangeTable = sGiratinaFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
+
     },
 #endif //P_FAMILY_GIRATINA
 
@@ -6647,7 +6634,6 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .teachableLearnset = sShayminSkyTeachableLearnset,
         .formSpeciesIdTable = sShayminFormSpeciesIdTable,
         .formChangeTable = sShayminFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FAMILY_SHAYMIN
 

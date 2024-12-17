@@ -622,7 +622,6 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sGreninjaTeachableLearnset,
         .formSpeciesIdTable = sGreninjaFormSpeciesIdTable,
         .formChangeTable = sGreninjaBattleBondFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 
     [SPECIES_GRENINJA_ASH] =
@@ -675,7 +674,6 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sGreninjaTeachableLearnset,
         .formSpeciesIdTable = sGreninjaFormSpeciesIdTable,
         .formChangeTable = sGreninjaBattleBondFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FAMILY_FROAKIE
 
@@ -3641,7 +3639,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sTyruntLevelUpLearnset,
         .teachableLearnset = sTyruntTeachableLearnset,
         .eggMoveLearnset = sTyruntEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL_DAY, 39, SPECIES_TYRANTRUM}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 39, SPECIES_TYRANTRUM}),
     },
 
     [SPECIES_TYRANTRUM] =
@@ -3767,7 +3765,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sAmauraLevelUpLearnset,
         .teachableLearnset = sAmauraTeachableLearnset,
         .eggMoveLearnset = sAmauraEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL_NIGHT, 39, SPECIES_AURORUS}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 39, SPECIES_AURORUS}),
     },
 
     [SPECIES_AURORUS] =
@@ -6040,7 +6038,6 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sDiancieTeachableLearnset,
         .formSpeciesIdTable = sDiancieFormSpeciesIdTable,
         .formChangeTable = sDiancieFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_DIANCIE
@@ -6178,7 +6175,6 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sHoopaUnboundTeachableLearnset,
         .formSpeciesIdTable = sHoopaFormSpeciesIdTable,
         .formChangeTable = sHoopaFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_FAMILY_HOOPA
 

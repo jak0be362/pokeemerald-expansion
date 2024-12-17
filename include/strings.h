@@ -821,6 +821,8 @@ extern const u8 gText_ItemFinderNothing[];
 extern const u8 gText_ItemFinderNearby[];
 extern const u8 gText_ItemFinderOnTop[];
 extern const u8 gText_CoinCase[];
+extern const u8 gText_InfiniteRepelOn[];
+extern const u8 gText_InfiniteRepelOff[];
 extern const u8 gText_PowderQty[];
 extern const u8 gText_BootedUpHM[];
 extern const u8 gText_BootedUpTM[];
@@ -2708,4 +2710,8 @@ extern const u8 gText_PM[];
 extern const u8 gText_PlayerScurriedToCenter[];
 extern const u8 gText_PlayerScurriedBackHome[];
 
+extern const u8 gText_Relearn[]; // move relearner from summary screen
+extern const u8 gText_Rename[]; // change nickname from summary screen
+extern const u8 gText_CurrentTime[];
+extern const u8 gText_CurrentTimeOff[];
 #endif // GUARD_STRINGS_H

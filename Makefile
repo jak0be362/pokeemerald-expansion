@@ -138,7 +138,6 @@ RAMSCRGEN := tools/ramscrgen/ramscrgen$(EXE)
 FIX := tools/gbafix/gbafix$(EXE)
 MAPJSON := tools/mapjson/mapjson$(EXE)
 JSONPROC := tools/jsonproc/jsonproc$(EXE)
-SCRIPT    := $(TOOLS_DIR)/poryscript/poryscript$(EXE)
 PATCHELF := tools/patchelf/patchelf$(EXE)
 ROMTEST ?= $(shell { command -v mgba-rom-test || command -v tools/mgba/mgba-rom-test$(EXE); } 2>/dev/null)
 ROMTESTHYDRA := tools/mgba-rom-test-hydra/mgba-rom-test-hydra$(EXE)
@@ -293,13 +292,10 @@ include spritesheet_rules.mk
 include json_data_rules.mk
 include songs.mk
 
-AUTO_GEN_TARGETS += $(patsubst %.pory,%.inc,$(shell find data/ -type f -name '*.pory'))
-
 %.s: ;
 %.png: ;
 %.pal: ;
 %.aif: ;
-%.pory: ;
 
 %.1bpp: %.png  ; $(GFX) $< $@
 %.4bpp: %.png  ; $(GFX) $< $@
@@ -308,7 +304,6 @@ AUTO_GEN_TARGETS += $(patsubst %.pory,%.inc,$(shell find data/ -type f -name '*.
 %.gbapal: %.png ; $(GFX) $< $@
 %.lz: % ; $(GFX) $< $@
 %.rl: % ; $(GFX) $< $@
-data/%.inc: data/%.pory; $(SCRIPT) -i $< -o $@ -fc tools/poryscript/font_config.json -cc tools/poryscript/command_config.json
 
 $(CRY_SUBDIR)/uncomp_%.bin: $(CRY_SUBDIR)/uncomp_%.aif ; $(AIF) $< $@
 $(CRY_SUBDIR)/%.bin: $(CRY_SUBDIR)/%.aif ; $(AIF) $< $@ --compress

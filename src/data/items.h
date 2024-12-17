@@ -137,6 +137,21 @@ static const u8 sTeraShardDesc[]      = _("These shards may\n"
 static const u8 sGenericMulchDesc[]   = _("A fertilizer that\n"
                                           "is unsuitable for\n"
                                           "local soil.");
+//static const char *gRandomItemNames[]
+//= {
+//        "ITEM_TM_ROCK_TOMB",
+//        "ITEM_TM_FLAMETHROWER",
+//        "ITEM_TM_THUNDERBOLT",
+//}
+//const char *get_random_item_name(){
+//    int itemCount =
+//sizeof(gRandomItemNames)/
+//sizeof(gRandomItemNames[0]);
+//    int randomIndex = rand()%
+//itemCount;
+//    return
+//gRandomItemNames[randomIndex];
+//}
 
 const struct Item gItemsInfo[] =
 {
@@ -14071,5 +14086,38 @@ const struct Item gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
+    },
+
+    [ITEM_INFINITE_CANDY] =
+    {
+        .name = _("InfiniteCandy"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Raises the level\n"
+            "of a Pokémon by\n"
+            "one."),
+        .pocket = POCKET_KEY_ITEMS,
+        .importance = 1,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
+        .effect = gItemEffect_RareCandy,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    },
+
+    [ITEM_INFINITE_REPEL] = 
+    {
+        .name = _("InfiniteRepel"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Repels all wild\n"
+            "Pokémon for any\n"
+            "number of steps."),
+        .pocket = POCKET_KEY_ITEMS,
+        .importance = 1,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_InfiniteRepel,
+        .iconPic = gItemIcon_Repel,
+        .iconPalette = gItemIconPalette_Repel,
     },
 };

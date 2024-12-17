@@ -334,7 +334,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sQuilavaLevelUpLearnset,
         .teachableLearnset = sQuilavaTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_TYPHLOSION},
-                                {EVO_NONE, 0, SPECIES_TYPHLOSION_HISUI}),
+                                {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_TYPHLOSION_HISUI}),
     },
 
 #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -1354,7 +1354,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .evYield_SpDefense = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 10,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
         .abilities = { ABILITY_HUSTLE, ABILITY_SERENE_GRACE, ABILITY_SUPER_LUCK },
@@ -1930,7 +1930,6 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .teachableLearnset = sAmpharosTeachableLearnset,
         .formSpeciesIdTable = sAmpharosFormSpeciesIdTable,
         .formChangeTable = sAmpharosFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_MAREEP
@@ -1955,7 +1954,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .evYield_HP = 1,
         .genderRatio = PERCENT_FEMALE(75),
         .eggCycles = 10,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
         .abilities = { ABILITY_THICK_FAT, ABILITY_HUGE_POWER, ABILITY_SAP_SIPPER },
@@ -4158,7 +4157,6 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sDudunsparceLevelUpLearnset,
         .teachableLearnset = sDudunsparceTeachableLearnset,
         .formSpeciesIdTable = sDudunsparceFormSpeciesIdTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GEN_9_CROSS_EVOS
 #endif //P_FAMILY_DUNSPARCE
@@ -4849,7 +4847,6 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .eggMoveLearnset = sHeracrossEggMoveLearnset,
         .formSpeciesIdTable = sHeracrossFormSpeciesIdTable,
         .formChangeTable = sHeracrossFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_HERACROSS
@@ -6576,7 +6573,6 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .teachableLearnset = sHoundoomTeachableLearnset,
         .formSpeciesIdTable = sHoundoomFormSpeciesIdTable,
         .formChangeTable = sHoundoomFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_HOUNDOUR
@@ -7468,7 +7464,6 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .teachableLearnset = sTyranitarTeachableLearnset,
         .formSpeciesIdTable = sTyranitarFormSpeciesIdTable,
         .formChangeTable = sTyranitarFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_LARVITAR

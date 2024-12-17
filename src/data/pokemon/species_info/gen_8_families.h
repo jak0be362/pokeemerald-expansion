@@ -2562,7 +2562,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .teachableLearnset = sAppletunTeachableLearnset,
         .formSpeciesIdTable = sAppletunFormSpeciesIdTable,
         .formChangeTable = sAppletunFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
 #if P_GIGANTAMAX_FORMS
@@ -3366,7 +3365,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .teachableLearnset = sToxtricityAmpedTeachableLearnset,
         .formSpeciesIdTable = sToxtricityFormSpeciesIdTable,
         .formChangeTable = sToxtricityAmpedFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
 #if P_GIGANTAMAX_FORMS
@@ -3484,7 +3482,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .teachableLearnset = sToxtricityLowKeyTeachableLearnset,
         .formSpeciesIdTable = sToxtricityFormSpeciesIdTable,
         .formChangeTable = sToxtricityAmpedFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
 #if P_GIGANTAMAX_FORMS
@@ -4990,7 +4987,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .itemRare = ITEM_SNOWBALL,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
         .abilities = { ABILITY_SHIELD_DUST, ABILITY_NONE, ABILITY_ICE_SCALES },
@@ -5036,7 +5033,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .levelUpLearnset = sSnomLevelUpLearnset,
         .teachableLearnset = sSnomTeachableLearnset,
         .eggMoveLearnset = sSnomEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_FRIENDSHIP_NIGHT, 0, SPECIES_FROSMOTH}),
+        .evolutions = EVOLUTION({EVO_FRIENDSHIP, 0, SPECIES_FROSMOTH}),
     },
 
     [SPECIES_FROSMOTH] =
@@ -6232,7 +6229,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .levelUpLearnset = sDreepyLevelUpLearnset,
         .teachableLearnset = sDreepyTeachableLearnset,
         .eggMoveLearnset = sDreepyEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 50, SPECIES_DRAKLOAK}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_DRAKLOAK}),
     },
 
     [SPECIES_DRAKLOAK] =
@@ -6490,7 +6487,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .teachableLearnset = sZacianTeachableLearnset,
         .formSpeciesIdTable = sZacianFormSpeciesIdTable,
         .formChangeTable = sZacianFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_FAMILY_ZACIAN
 
@@ -6625,7 +6621,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .teachableLearnset = sZamazentaTeachableLearnset,
         .formSpeciesIdTable = sZamazentaFormSpeciesIdTable,
         .formChangeTable = sZamazentaFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_FAMILY_ZAMAZENTA
 
@@ -6752,7 +6747,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .levelUpLearnset = sEternatusLevelUpLearnset,
         .teachableLearnset = sEternatusTeachableLearnset,
         .formSpeciesIdTable = sEternatusFormSpeciesIdTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_FAMILY_ETERNATUS
 
@@ -6886,7 +6880,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .teachableLearnset = sUrshifuSingleStrikeStyleTeachableLearnset,
         .formSpeciesIdTable = sUrshifuFormSpeciesIdTable,
         .formChangeTable = sUrshifuSingleStrikeFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
 #if P_GIGANTAMAX_FORMS
@@ -7012,7 +7005,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .teachableLearnset = sUrshifuRapidStrikeStyleTeachableLearnset,
         .formSpeciesIdTable = sUrshifuFormSpeciesIdTable,
         .formChangeTable = sUrshifuRapidStrikeFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
 #if P_GIGANTAMAX_FORMS
@@ -7594,7 +7586,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .levelUpLearnset = sCalyrexIceRiderLevelUpLearnset,
         .teachableLearnset = sCalyrexIceRiderTeachableLearnset,
         .formSpeciesIdTable = sCalyrexFormSpeciesIdTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 
     [SPECIES_CALYREX_SHADOW] =
@@ -7661,7 +7652,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .levelUpLearnset = sCalyrexShadowRiderLevelUpLearnset,
         .teachableLearnset = sCalyrexShadowRiderTeachableLearnset,
         .formSpeciesIdTable = sCalyrexFormSpeciesIdTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FUSION_FORMS
 #endif //P_FAMILY_CALYREX
@@ -7794,7 +7784,6 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .levelUpLearnset = sEnamorusLevelUpLearnset,
         .teachableLearnset = sEnamorusTeachableLearnset,
         .formSpeciesIdTable = sEnamorusFormSpeciesIdTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_FAMILY_ENAMORUS
 

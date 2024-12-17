@@ -265,7 +265,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sVenusaurTeachableLearnset,
         .formSpeciesIdTable = sVenusaurFormSpeciesIdTable,
         .formChangeTable = sVenusaurFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 
@@ -580,7 +579,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sCharizardTeachableLearnset,
         .formSpeciesIdTable = sCharizardFormSpeciesIdTable,
         .formChangeTable = sCharizardFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 
     [SPECIES_CHARIZARD_MEGA_Y] =
@@ -637,7 +635,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sCharizardTeachableLearnset,
         .formSpeciesIdTable = sCharizardFormSpeciesIdTable,
         .formChangeTable = sCharizardFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 
@@ -953,7 +950,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sBlastoiseTeachableLearnset,
         .formSpeciesIdTable = sBlastoiseFormSpeciesIdTable,
         .formChangeTable = sBlastoiseFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 
@@ -1556,7 +1552,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sBeedrillTeachableLearnset,
         .formSpeciesIdTable = sBeedrillFormSpeciesIdTable,
         .formChangeTable = sBeedrillFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_WEEDLE
@@ -1829,7 +1824,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPidgeotTeachableLearnset,
         .formSpeciesIdTable = sPidgeotFormSpeciesIdTable,
         .formChangeTable = sPidgeotFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif
 #endif //P_FAMILY_PIDGEY
@@ -2045,7 +2039,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sRattataAlolanTeachableLearnset,
         .eggMoveLearnset = sRattataAlolanEggMoveLearnset,
         .formSpeciesIdTable = sRattataFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL_NIGHT, 20, SPECIES_RATICATE_ALOLA},
+        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_RATICATE_ALOLA},
                                 {EVO_NONE, 0, SPECIES_RATICATE_ALOLA_TOTEM}),
     },
 
@@ -2454,7 +2448,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evYield_Speed = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 10,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
         .abilities = { ABILITY_STATIC, ABILITY_NONE, ABILITY_LIGHTNING_ROD },
@@ -2498,6 +2492,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sPichuEggMoveLearnset,
         .formSpeciesIdTable = sPichuFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_FRIENDSHIP, 0, SPECIES_PIKACHU}),
+        .randomizerMode = MON_RANDOMIZER_RANDOM_FORM
     },
 
     [SPECIES_PICHU_SPIKY_EARED] =
@@ -2643,8 +2638,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
         .formChangeTable = sPikachuFormChangeTable,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_RAICHU},
-                                {EVO_NONE, 0, SPECIES_RAICHU_ALOLA}),
+        .evolutions = EVOLUTION({EVO_ITEM_DAY, ITEM_THUNDER_STONE, SPECIES_RAICHU},
+                                {EVO_ITEM_NIGHT, ITEM_THUNDER_STONE, SPECIES_RAICHU_ALOLA}),
     },
 
 #if P_COSPLAY_PIKACHU_FORMS
@@ -4398,7 +4393,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .itemRare = ITEM_MOON_STONE,
         .genderRatio = PERCENT_FEMALE(75),
         .eggCycles = 10,
-        .friendship = 140,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
     #if P_UPDATED_ABILITIES >= GEN_4
@@ -4883,7 +4878,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evYield_HP = 1,
         .genderRatio = PERCENT_FEMALE(75),
         .eggCycles = 10,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
     #if P_UPDATED_ABILITIES >= GEN_6
@@ -5171,7 +5166,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evYield_Speed = 2,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .abilities = { ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_INFILTRATOR },
@@ -6304,7 +6299,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .itemRare = ITEM_QUICK_CLAW,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .abilities = { ABILITY_PICKUP, ABILITY_TECHNICIAN, ABILITY_RATTLED },
@@ -7765,7 +7760,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sAlakazamTeachableLearnset,
         .formSpeciesIdTable = sAlakazamFormSpeciesIdTable,
         .formChangeTable = sAlakazamFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_ABRA
@@ -9308,7 +9302,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sSlowbroTeachableLearnset,
         .formSpeciesIdTable = sSlowbroFormSpeciesIdTable,
         .formChangeTable = sSlowbroFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 
@@ -10873,7 +10866,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sGengarTeachableLearnset,
         .formSpeciesIdTable = sGengarFormSpeciesIdTable,
         .formChangeTable = sGengarFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 
@@ -11134,7 +11126,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sSteelixTeachableLearnset,
         .formSpeciesIdTable = sSteelixFormSpeciesIdTable,
         .formChangeTable = sSteelixFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_GEN_2_CROSS_EVOS
@@ -12008,8 +11999,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sCuboneTeachableLearnset,
         .eggMoveLearnset = sCuboneEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_MAROWAK},
-                                {EVO_NONE, 0, SPECIES_MAROWAK_ALOLA},
-                                {EVO_NONE, 0, SPECIES_MAROWAK_ALOLA_TOTEM}),
+                                {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_MAROWAK_ALOLA}),
+                                
     },
 
     [SPECIES_MAROWAK] =
@@ -13495,7 +13486,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sKangaskhanEggMoveLearnset,
         .formSpeciesIdTable = sKangaskhanFormSpeciesIdTable,
         .formChangeTable = sKangaskhanFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_KANGASKHAN
@@ -14474,7 +14464,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sScizorTeachableLearnset,
         .formSpeciesIdTable = sScizorFormSpeciesIdTable,
         .formChangeTable = sScizorFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_GEN_2_CROSS_EVOS
@@ -15214,7 +15203,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sPinsirEggMoveLearnset,
         .formSpeciesIdTable = sPinsirFormSpeciesIdTable,
         .formChangeTable = sPinsirFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_PINSIR
@@ -15689,7 +15677,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sGyaradosTeachableLearnset,
         .formSpeciesIdTable = sGyaradosFormSpeciesIdTable,
         .formChangeTable = sGyaradosFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_MAGIKARP
@@ -15905,7 +15892,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evYield_SpDefense = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 35,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
     #if P_UPDATED_ABILITIES >= GEN_4
@@ -17202,7 +17189,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sAerodactylEggMoveLearnset,
         .formSpeciesIdTable = sAerodactylFormSpeciesIdTable,
         .formChangeTable = sAerodactylFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_AERODACTYL
@@ -17225,7 +17211,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .itemRare = ITEM_LEFTOVERS,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 40,
-        .friendship = STANDARD_FRIENDSHIP,
+        .friendship = HIGH_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
         .abilities = { ABILITY_PICKUP, ABILITY_THICK_FAT, ABILITY_GLUTTONY },
@@ -18155,7 +18141,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMewtwoTeachableLearnset,
         .formSpeciesIdTable = sMewtwoFormSpeciesIdTable,
         .formChangeTable = sMewtwoFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_MEWTWO_MEGA_Y] =
@@ -18216,7 +18201,6 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMewtwoTeachableLearnset,
         .formSpeciesIdTable = sMewtwoFormSpeciesIdTable,
         .formChangeTable = sMewtwoFormChangeTable,
-        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_MEWTWO
