@@ -6229,7 +6229,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .levelUpLearnset = sDreepyLevelUpLearnset,
         .teachableLearnset = sDreepyTeachableLearnset,
         .eggMoveLearnset = sDreepyEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_DRAKLOAK}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_DRAKLOAK}),
     },
 
     [SPECIES_DRAKLOAK] =
@@ -6291,7 +6291,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         )
         .levelUpLearnset = sDrakloakLevelUpLearnset,
         .teachableLearnset = sDrakloakTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 48, SPECIES_DRAGAPULT}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 46, SPECIES_DRAGAPULT}),
     },
 
     [SPECIES_DRAGAPULT] =
@@ -6747,6 +6747,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .levelUpLearnset = sEternatusLevelUpLearnset,
         .teachableLearnset = sEternatusTeachableLearnset,
         .formSpeciesIdTable = sEternatusFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_FAMILY_ETERNATUS
 

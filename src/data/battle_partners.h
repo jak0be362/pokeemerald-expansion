@@ -76,9 +76,9 @@
 //#line 30
 //                MOVE_TOXIC,
 //                MOVE_AERIAL_ACE,
- //               MOVE_PROTECT,
- //               MOVE_STEEL_WING,
- //           },
+//                MOVE_PROTECT,
+//                MOVE_STEEL_WING,
+//            },
             },
             {
 #line 35

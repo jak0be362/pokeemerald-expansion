@@ -10222,7 +10222,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .tmIlliterate = TRUE,
         .levelUpLearnset = sBeldumLevelUpLearnset,
         .teachableLearnset = sBeldumTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_METANG}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_METANG}),
     },
 
     [SPECIES_METANG] =
@@ -10285,7 +10285,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         )
         .levelUpLearnset = sMetangLevelUpLearnset,
         .teachableLearnset = sMetangTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 45, SPECIES_METAGROSS}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 46, SPECIES_METAGROSS}),
     },
 
     [SPECIES_METAGROSS] =

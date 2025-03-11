@@ -22,26 +22,37 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarLeft::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Dolls
+	pokemart LilycoveCity_DepartmentStore_5F_Nature_Mints
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
-LilycoveCity_DepartmentStore_5F_Pokemart_Dolls:
-	.2byte DECOR_PICHU_DOLL
-	.2byte DECOR_PIKACHU_DOLL
-	.2byte DECOR_MARILL_DOLL
-	.2byte DECOR_JIGGLYPUFF_DOLL
-	.2byte DECOR_DUSKULL_DOLL
-	.2byte DECOR_WYNAUT_DOLL
-	.2byte DECOR_BALTOY_DOLL
-	.2byte DECOR_KECLEON_DOLL
-	.2byte DECOR_AZURILL_DOLL
-	.2byte DECOR_SKITTY_DOLL
-	.2byte DECOR_SWABLU_DOLL
-	.2byte DECOR_GULPIN_DOLL
-	.2byte DECOR_NONE
+LilycoveCity_DepartmentStore_5F_Nature_Mints:
+	.2byte ITEM_LONELY_MINT
+	.2byte ITEM_ADAMANT_MINT
+	.2byte ITEM_NAUGHTY_MINT
+	.2byte ITEM_BRAVE_MINT
+	.2byte ITEM_BOLD_MINT
+	.2byte ITEM_IMPISH_MINT
+	.2byte ITEM_LAX_MINT
+	.2byte ITEM_RELAXED_MINT
+	.2byte ITEM_MODEST_MINT
+	.2byte ITEM_MILD_MINT
+	.2byte ITEM_RASH_MINT
+	.2byte ITEM_QUIET_MINT
+	.2byte ITEM_CALM_MINT
+	.2byte ITEM_GENTLE_MINT
+	.2byte ITEM_CAREFUL_MINT
+	.2byte ITEM_SASSY_MINT
+	.2byte ITEM_TIMID_MINT
+	.2byte ITEM_HASTY_MINT
+	.2byte ITEM_JOLLY_MINT
+	.2byte ITEM_NAIVE_MINT
+	.2byte ITEM_SERIOUS_MINT
+	.2byte ITEM_ABILITY_CAPSULE
+	.2byte ITEM_ABILITY_PATCH
+	.2byte ITEM_NONE
 	release
 	end
 
@@ -50,23 +61,66 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidLeft::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Cushions
+	pokemart LilycoveCity_DepartmentStore_5F_Form_Change
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
-LilycoveCity_DepartmentStore_5F_Pokemart_Cushions:
-	.2byte DECOR_PIKA_CUSHION
-	.2byte DECOR_ROUND_CUSHION
-	.2byte DECOR_ZIGZAG_CUSHION
-	.2byte DECOR_SPIN_CUSHION
-	.2byte DECOR_DIAMOND_CUSHION
-	.2byte DECOR_BALL_CUSHION
-	.2byte DECOR_GRASS_CUSHION
-	.2byte DECOR_FIRE_CUSHION
-	.2byte DECOR_WATER_CUSHION
-	.2byte DECOR_NONE
+LilycoveCity_DepartmentStore_5F_Form_Change:
+	.2byte ITEM_FLAME_PLATE
+	.2byte ITEM_SPLASH_PLATE
+	.2byte ITEM_ZAP_PLATE
+	.2byte ITEM_MEADOW_PLATE
+	.2byte ITEM_ICICLE_PLATE
+	.2byte ITEM_FIST_PLATE
+	.2byte ITEM_TOXIC_PLATE
+	.2byte ITEM_EARTH_PLATE
+	.2byte ITEM_SKY_PLATE
+	.2byte ITEM_MIND_PLATE
+	.2byte ITEM_INSECT_PLATE
+	.2byte ITEM_STONE_PLATE
+	.2byte ITEM_SPOOKY_PLATE
+	.2byte ITEM_DRACO_PLATE
+	.2byte ITEM_DREAD_PLATE
+	.2byte ITEM_IRON_PLATE
+	.2byte ITEM_PIXIE_PLATE
+	.2byte ITEM_DOUSE_DRIVE
+	.2byte ITEM_SHOCK_DRIVE
+	.2byte ITEM_BURN_DRIVE
+	.2byte ITEM_CHILL_DRIVE
+	.2byte ITEM_FIRE_MEMORY
+	.2byte ITEM_WATER_MEMORY
+	.2byte ITEM_ELECTRIC_MEMORY
+	.2byte ITEM_GRASS_MEMORY
+	.2byte ITEM_ICE_MEMORY
+	.2byte ITEM_FIGHTING_MEMORY
+	.2byte ITEM_POISON_MEMORY
+	.2byte ITEM_GROUND_MEMORY
+	.2byte ITEM_FLYING_MEMORY
+	.2byte ITEM_PSYCHIC_MEMORY
+	.2byte ITEM_BUG_MEMORY
+	.2byte ITEM_ROCK_MEMORY
+	.2byte ITEM_GHOST_MEMORY
+	.2byte ITEM_DRAGON_MEMORY
+	.2byte ITEM_DARK_MEMORY
+	.2byte ITEM_STEEL_MEMORY
+	.2byte ITEM_FAIRY_MEMORY
+	.2byte ITEM_RUSTED_SWORD
+	.2byte ITEM_RUSTED_SHIELD
+	.2byte ITEM_RED_ORB
+	.2byte ITEM_BLUE_ORB
+	.2byte ITEM_ROTOM_CATALOG
+	.2byte ITEM_GRACIDEA
+	.2byte ITEM_REVEAL_GLASS
+	.2byte ITEM_DNA_SPLICERS
+	.2byte ITEM_ZYGARDE_CUBE
+	.2byte ITEM_PRISON_BOTTLE
+	.2byte ITEM_N_SOLARIZER
+	.2byte ITEM_N_LUNARIZER
+	.2byte ITEM_ULTRANECROZIUM_Z
+	.2byte ITEM_REINS_OF_UNITY
+	.2byte ITEM_NONE
 	release
 	end
 
@@ -75,23 +129,61 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidRight::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Posters
+	pokemart LilycoveCity_DepartmentStore_5F_Mega_Stones
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
-LilycoveCity_DepartmentStore_5F_Pokemart_Posters:
-	.2byte DECOR_BALL_POSTER
-	.2byte DECOR_GREEN_POSTER
-	.2byte DECOR_RED_POSTER
-	.2byte DECOR_BLUE_POSTER
-	.2byte DECOR_CUTE_POSTER
-	.2byte DECOR_PIKA_POSTER
-	.2byte DECOR_LONG_POSTER
-	.2byte DECOR_SEA_POSTER
-	.2byte DECOR_SKY_POSTER
-	.2byte DECOR_NONE
+LilycoveCity_DepartmentStore_5F_Mega_Stones:
+	.2byte ITEM_VENUSAURITE
+	.2byte ITEM_CHARIZARDITE_X
+	.2byte ITEM_CHARIZARDITE_Y
+	.2byte ITEM_BLASTOISINITE
+	.2byte ITEM_BEEDRILLITE
+	.2byte ITEM_PIDGEOTITE
+	.2byte ITEM_ALAKAZITE
+	.2byte ITEM_SLOWBRONITE
+	.2byte ITEM_GENGARITE
+	.2byte ITEM_KANGASKHANITE
+	.2byte ITEM_PINSIRITE
+	.2byte ITEM_GYARADOSITE
+	.2byte ITEM_AERODACTYLITE
+	.2byte ITEM_MEWTWONITE_X
+	.2byte ITEM_MEWTWONITE_Y
+	.2byte ITEM_AMPHAROSITE
+	.2byte ITEM_STEELIXITE
+	.2byte ITEM_SCIZORITE
+	.2byte ITEM_HERACRONITE
+	.2byte ITEM_HOUNDOOMINITE
+	.2byte ITEM_TYRANITARITE
+	.2byte ITEM_SCEPTILITE
+	.2byte ITEM_BLAZIKENITE
+	.2byte ITEM_SWAMPERTITE
+	.2byte ITEM_GARDEVOIRITE
+	.2byte ITEM_SABLENITE
+	.2byte ITEM_MAWILITE
+	.2byte ITEM_AGGRONITE
+	.2byte ITEM_MEDICHAMITE
+	.2byte ITEM_MANECTITE
+	.2byte ITEM_SHARPEDONITE
+	.2byte ITEM_CAMERUPTITE
+	.2byte ITEM_ALTARIANITE
+	.2byte ITEM_BANETTITE
+	.2byte ITEM_ABSOLITE
+	.2byte ITEM_GLALITITE
+	.2byte ITEM_SALAMENCITE
+	.2byte ITEM_METAGROSSITE
+	.2byte ITEM_LATIASITE
+	.2byte ITEM_LATIOSITE
+	.2byte ITEM_LOPUNNITE
+	.2byte ITEM_GARCHOMPITE
+	.2byte ITEM_LUCARIONITE
+	.2byte ITEM_ABOMASITE
+	.2byte ITEM_GALLADITE
+	.2byte ITEM_AUDINITE
+	.2byte ITEM_DIANCITE
+	.2byte ITEM_NONE
 	release
 	end
 
@@ -100,24 +192,56 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarRight::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Mats
+	pokemart LilycoveCity_DepartmentStore_5F_Evo_Items
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
-LilycoveCity_DepartmentStore_5F_Pokemart_Mats:
-	.2byte DECOR_SURF_MAT
-	.2byte DECOR_THUNDER_MAT
-	.2byte DECOR_FIRE_BLAST_MAT
-	.2byte DECOR_POWDER_SNOW_MAT
-	.2byte DECOR_ATTRACT_MAT
-	.2byte DECOR_FISSURE_MAT
-	.2byte DECOR_SPIKES_MAT
-	.2byte DECOR_GLITTER_MAT
-	.2byte DECOR_JUMP_MAT
-	.2byte DECOR_SPIN_MAT
-	.2byte DECOR_NONE
+LilycoveCity_DepartmentStore_5F_Evo_Items:
+	.2byte ITEM_FIRE_STONE
+	.2byte ITEM_THUNDER_STONE
+	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_ICE_STONE
+	.2byte ITEM_SUN_STONE
+	.2byte ITEM_MOON_STONE
+	.2byte ITEM_SHINY_STONE
+	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_DUSK_STONE
+	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_MALICIOUS_ARMOR
+	.2byte ITEM_METAL_COAT
+	.2byte ITEM_PEAT_BLOCK
+	.2byte ITEM_BLACK_AUGURITE
+	.2byte ITEM_SWEET_APPLE
+	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_TART_APPLE
+	.2byte ITEM_CRACKED_POT
+	.2byte ITEM_CHIPPED_POT
+	.2byte ITEM_UNREMARKABLE_TEACUP
+	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_GIMMIGHOUL_COIN
+	.2byte ITEM_GALARICA_CUFF
+	.2byte ITEM_GALARICA_WREATH
+	.2byte ITEM_DRAGON_SCALE
+	.2byte ITEM_UPGRADE
+	.2byte ITEM_PROTECTOR
+	.2byte ITEM_ELECTIRIZER
+	.2byte ITEM_MAGMARIZER
+	.2byte ITEM_DUBIOUS_DISC
+	.2byte ITEM_REAPER_CLOTH
+	.2byte ITEM_PRISM_SCALE
+	.2byte ITEM_WHIPPED_DREAM
+	.2byte ITEM_SACHET
+	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_SCROLL_OF_DARKNESS
+	.2byte ITEM_SCROLL_OF_WATERS
+	.2byte ITEM_DEEP_SEA_SCALE
+	.2byte ITEM_DEEP_SEA_TOOTH
+	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_NONE
 	release
 	end
 

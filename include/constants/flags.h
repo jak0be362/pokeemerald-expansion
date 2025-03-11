@@ -655,10 +655,10 @@
 #define FLAG_EXP_SHARE_TOGGLE  0x264 // Unused Flag
 #define FLAG_FORCE_SHINY  0x265 // Unused Flag
 #define FLAG_INFINITE_REPEL  0x266 // Unused Flag
-#define FLAG_UNUSED_0x267  0x267 // Unused Flag
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
-#define FLAG_UNUSED_0x26A  0x26A // Unused Flag
+#define FLAG_DYNAMAX  0x267 // Unused Flag
+#define FLAG_TERASTAL  0x268 // Unused Flag
+#define FLAG_INVERSE_TYPES  0x269 // Unused Flag
+#define FLAG_NO_TRAINER_SEE  0x26A // Unused Flag
 #define FLAG_UNUSED_0x26B  0x26B // Unused Flag
 #define FLAG_UNUSED_0x26C  0x26C // Unused Flag
 #define FLAG_UNUSED_0x26D  0x26D // Unused Flag
