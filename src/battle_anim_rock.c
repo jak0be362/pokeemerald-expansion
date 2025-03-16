@@ -478,14 +478,15 @@ void AnimRockFragment(struct Sprite *sprite)
 // Swirls particle in vortex. Used for moves like Fire Spin or Sand Tomb
 void AnimParticleInVortex(struct Sprite *sprite)
 {
-    if (IsDoubleBattle() //got a little lazy here will fix later
-    && (gAnimMoveIndex == MOVE_BLEAKWIND_STORM
+    if (IsDoubleBattle()
+    && (gAnimMoveIndex == MOVE_BLEAKWIND_STORM 
      || gAnimMoveIndex == MOVE_SANDSEAR_STORM
      || gAnimMoveIndex == MOVE_SPRINGTIDE_STORM
      || gAnimMoveIndex == MOVE_WILDBOLT_STORM))
         InitSpritePosToAnimTargetsCentre(sprite, FALSE);
     else
-        InitSpritePosToAnimTarget(sprite, FALSE);
+        InitSpritePosToAnimBattler(gBattleAnimArgs[6], sprite, FALSE);
+
     sprite->data[0] = gBattleAnimArgs[3];
     sprite->data[1] = gBattleAnimArgs[2];
     sprite->data[2] = gBattleAnimArgs[4];
@@ -1025,3 +1026,25 @@ void AnimTask_SeismicTossBgAccelerateDownAtEnd(u8 taskId)
         DestroyAnimVisualTask(taskId);
     }
 }
+
+const struct SpriteTemplate gSaltCureCrystalSpriteTemplate =
+{
+    .tileTag = ANIM_TAG_SALT_PARTICLE,
+    .paletteTag = ANIM_TAG_SALT_PARTICLE,
+    .oam = &gOamData_AffineNormal_ObjBlend_16x16,
+    .anims = gAnims_IceCrystalLarge,
+    .images = NULL,
+    .affineAnims = gAffineAnims_IceCrystalHit,
+    .callback = AnimIceEffectParticle,
+};
+
+const struct SpriteTemplate gSaltCureSwirlSpriteTemplate =
+{
+    .tileTag = ANIM_TAG_SALT_PARTICLE,
+    .paletteTag = ANIM_TAG_SALT_PARTICLE,
+    .oam = &gOamData_AffineNormal_ObjBlend_16x16,
+    .anims = gAnims_WaterMudOrb,
+    .images = NULL,
+    .affineAnims = gAffineAnims_Whirlpool,
+    .callback = AnimParticleInVortex,
+};

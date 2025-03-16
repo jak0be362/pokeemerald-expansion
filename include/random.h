@@ -3,8 +3,8 @@
 
 // The number 1103515245 comes from the example implementation of rand and srand
 // in the ISO C standard.
-#define ISO_RANDOMIZE1(val)(1103515245 * (val) + 24691)
-#define ISO_RANDOMIZE2(val)(1103515245 * (val) + 12345)
+#define ISO_RANDOMIZE1(val) (1103515245 * (val) + 24691)
+#define ISO_RANDOMIZE2(val) (1103515245 * (val) + 12345)
 
 /* Some functions have been added to support Expansion's RNG implementation.
 *
@@ -42,7 +42,7 @@ static inline u32 _SFC32_Next_Stream(struct Sfc32State *state, const u8 stream)
 
 typedef struct Sfc32State rng_value_t;
 
-#define RNG_VALUE_EMPTY {}
+#define RNG_VALUE_EMPTY {0}
 
 // Calling this function directly is discouraged.
 // Use LocalRandom() instead.
@@ -55,9 +55,14 @@ static inline u32 _SFC32_Next(struct Sfc32State *state)
     return result;
 }
 
+static inline u32 LocalRandom32(rng_value_t *val)
+{
+    return _SFC32_Next(val);
+}
+
 static inline u16 LocalRandom(rng_value_t *val)
 {
-    return _SFC32_Next(val) >> 16;
+    return LocalRandom32(val) >> 16;
 }
 
 u32 Random32(void);
@@ -174,13 +179,32 @@ enum RandomTag
     RNG_FICKLE_BEAM,
     RNG_AI_ABILITY,
     RNG_AI_SWITCH_HASBADODDS,
-    RNG_AI_SWITCH_WONDER_GUARD,
     RNG_AI_SWITCH_BADLY_POISONED,
     RNG_AI_SWITCH_CURSED,
     RNG_AI_SWITCH_NIGHTMARE,
     RNG_AI_SWITCH_SEEDED,
+    RNG_AI_SWITCH_YAWN,
+    RNG_AI_SWITCH_PERISH_SONG,
+    RNG_AI_SWITCH_INFATUATION,
+    RNG_AI_SWITCH_ABSORBING,
+    RNG_AI_SWITCH_ABSORBING_STAY_IN,
+    RNG_AI_SWITCH_NATURAL_CURE,
+    RNG_AI_SWITCH_REGENERATOR,
+    RNG_AI_SWITCH_ENCORE,
+    RNG_AI_SWITCH_CHOICE_LOCKED,
+    RNG_AI_SWITCH_STATS_LOWERED,
+    RNG_AI_SWITCH_SE_DEFENSIVE,
+    RNG_AI_SWITCH_TRUANT,
+    RNG_AI_SWITCH_WONDER_GUARD,
+    RNG_AI_SWITCH_TRAPPER,
+    RNG_AI_SWITCH_FREE_TURN,
+    RNG_AI_SWITCH_ALL_MOVES_BAD,
     RNG_SHELL_SIDE_ARM,
     RNG_RANDOM_TARGET,
+    RNG_AI_PREDICT_ABILITY,
+    RNG_AI_PREDICT_SWITCH,
+    RNG_HEALER,
+    RNG_DEXNAV_ENCOUNTER_LEVEL,
 };
 
 #define RandomWeighted(tag, ...) \

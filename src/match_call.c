@@ -133,7 +133,7 @@ static EWRAM_DATA struct MatchCallState sMatchCallState = {0};
 static EWRAM_DATA struct BattleFrontierStreakInfo sBattleFrontierStreakInfo = {0};
 
 static u32 GetCurrentTotalMinutes(struct Time *);
-static u32 GetNumRegisteredNPCs(void);
+static u32 GetNumRegisteredTrainers(void);
 static u32 GetActiveMatchCallTrainerId(u32);
 static int GetTrainerMatchCallId(int);
 static u16 GetRematchTrainerLocation(int);
@@ -1100,7 +1100,7 @@ static bool32 UpdateMatchCallStepCounter(void)
 static bool32 SelectMatchCallTrainer(void)
 {
     u32 matchCallId;
-    u32 numRegistered = GetNumRegisteredNPCs();
+    u32 numRegistered = GetNumRegisteredTrainers();
     if (numRegistered == 0)
         return FALSE;
 
@@ -1116,12 +1116,13 @@ static bool32 SelectMatchCallTrainer(void)
     return TRUE;
 }
 
-static u32 GetNumRegisteredNPCs(void)
+// Ignores registrable non-trainer NPCs, and special trainers like Wally and the gym leaders.
+static u32 GetNumRegisteredTrainers(void)
 {
     u32 i, count;
     for (i = 0, count = 0; i < REMATCH_SPECIAL_TRAINER_START; i++)
     {
-        if (FlagGet(FLAG_MATCH_CALL_REGISTERED + i))
+        if (FlagGet(TRAINER_REGISTERED_FLAGS_START + i))
             count++;
     }
 
@@ -1133,7 +1134,7 @@ static u32 GetActiveMatchCallTrainerId(u32 activeMatchCallId)
     u32 i;
     for (i = 0; i < REMATCH_SPECIAL_TRAINER_START; i++)
     {
-        if (FlagGet(FLAG_MATCH_CALL_REGISTERED + i))
+        if (FlagGet(TRAINER_REGISTERED_FLAGS_START + i))
         {
             if (!activeMatchCallId)
                 return gRematchTable[i].trainerIds[0];
@@ -1870,25 +1871,13 @@ static void PopulateBattleFrontierStreak(int matchCallId, u8 *destStr)
     ConvertIntToDecimalStringN(destStr, sBattleFrontierStreakInfo.streak, STR_CONV_MODE_LEFT_ALIGN, i);
 }
 
-static const u16 sBadgeFlags[NUM_BADGES] =
-{
-    FLAG_BADGE01_GET,
-    FLAG_BADGE02_GET,
-    FLAG_BADGE03_GET,
-    FLAG_BADGE04_GET,
-    FLAG_BADGE05_GET,
-    FLAG_BADGE06_GET,
-    FLAG_BADGE07_GET,
-    FLAG_BADGE08_GET,
-};
-
 static int GetNumOwnedBadges(void)
 {
     u32 i;
 
     for (i = 0; i < NUM_BADGES; i++)
     {
-        if (!FlagGet(sBadgeFlags[i]))
+        if (!FlagGet(gBadgeFlags[i]))
             break;
     }
 

@@ -50,9 +50,7 @@ LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
 	.2byte ITEM_TM_IRON_TAIL
 	.2byte ITEM_TM_THUNDERBOLT
 	.2byte ITEM_TM_THUNDER
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight::
 	lock
@@ -91,9 +89,7 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
 	.2byte ITEM_TM_SKILL_SWAP
 	.2byte ITEM_TM_SNATCH
 	.2byte ITEM_TM_OVERHEAT
-	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM:
 	.string "Hmm…\p"

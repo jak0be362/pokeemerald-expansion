@@ -52,7 +52,7 @@ LilycoveCity_DepartmentStore_5F_Nature_Mints:
 	.2byte ITEM_SERIOUS_MINT
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
-	.2byte ITEM_NONE
+	pokemartlistend
 	release
 	end
 
@@ -120,7 +120,7 @@ LilycoveCity_DepartmentStore_5F_Form_Change:
 	.2byte ITEM_N_LUNARIZER
 	.2byte ITEM_ULTRANECROZIUM_Z
 	.2byte ITEM_REINS_OF_UNITY
-	.2byte ITEM_NONE
+	pokemartlistend
 	release
 	end
 
@@ -183,7 +183,7 @@ LilycoveCity_DepartmentStore_5F_Mega_Stones:
 	.2byte ITEM_GALLADITE
 	.2byte ITEM_AUDINITE
 	.2byte ITEM_DIANCITE
-	.2byte ITEM_NONE
+	pokemartlistend
 	release
 	end
 
@@ -241,7 +241,7 @@ LilycoveCity_DepartmentStore_5F_Evo_Items:
 	.2byte ITEM_KINGS_ROCK
 	.2byte ITEM_RAZOR_CLAW
 	.2byte ITEM_RAZOR_FANG
-	.2byte ITEM_NONE
+	
 	release
 	end
 

@@ -439,7 +439,7 @@ static void PrintInstructionsOnWindow(struct PokemonSpriteVisualizer *data)
     u8 textInstructionsGender[] = _("{START_BUTTON} Shiny {SELECT_BUTTON} Gender\n{B_BUTTON} Exit  {A_BUTTON} Anims and BG$");
     u8 textInstructionsSubmenuOne[] = _("{START_BUTTON} Shiny\n{B_BUTTON} Back  {A_BUTTON} Sprite Coords$");
     u8 textInstructionsSubmenuOneGender[] = _("{START_BUTTON} Shiny {SELECT_BUTTON} Gender\n{B_BUTTON} Back  {A_BUTTON} Sprite Coords$");
-#if B_ENEMY_MON_SHADOW_STYLE >= GEN_4
+#if B_ENEMY_MON_SHADOW_STYLE >= GEN_4 && P_GBA_STYLE_SPECIES_GFX == FALSE
     u8 textInstructionsSubmenuTwo[] = _("{START_BUTTON} Shiny\n{B_BUTTON} Back  {A_BUTTON} Shadow Coords$");
     u8 textInstructionsSubmenuTwoGender[] = _("{START_BUTTON} Shiny {SELECT_BUTTON} Gender\n{B_BUTTON} Back  {A_BUTTON} Shadow Coords$");
     u8 textInstructionsSubmenuThree[] = _("{START_BUTTON} Shiny\n{B_BUTTON} Back");
@@ -743,10 +743,11 @@ static void BattleLoadOpponentMonSpriteGfxCustom(u16 species, bool8 isFemale, bo
 {
     const u32 *lzPaletteData = GetMonSpritePalFromSpecies(species, isShiny, isFemale);
     u16 paletteOffset = OBJ_PLTT_ID(battlerId);
+    void *buffer = malloc_and_decompress(lzPaletteData, NULL);
 
-    LZDecompressWram(lzPaletteData, gDecompressionBuffer);
-    LoadPalette(gDecompressionBuffer, paletteOffset, PLTT_SIZE_4BPP);
-    LoadPalette(gDecompressionBuffer, BG_PLTT_ID(8) + BG_PLTT_ID(battlerId), PLTT_SIZE_4BPP);
+    LoadPalette(buffer, paletteOffset, PLTT_SIZE_4BPP);
+    LoadPalette(buffer, BG_PLTT_ID(8) + BG_PLTT_ID(battlerId), PLTT_SIZE_4BPP);
+    Free(buffer);
 }
 
 static void SetConstSpriteValues(struct PokemonSpriteVisualizer *data)
@@ -766,7 +767,7 @@ static void ResetOffsetSpriteValues(struct PokemonSpriteVisualizer *data)
 
 static void ResetShadowSettings(struct PokemonSpriteVisualizer *data, u16 species)
 {
-    if (B_ENEMY_MON_SHADOW_STYLE <= GEN_3)
+    if (B_ENEMY_MON_SHADOW_STYLE <= GEN_3 || P_GBA_STYLE_SPECIES_GFX == TRUE)
         return;
 
     data->shadowSettings.definedX = gSpeciesInfo[species].enemyShadowXOffset;
@@ -801,7 +802,7 @@ static u8 GetBattlerSpriteFinal_YCustom(u16 species, s8 offset_picCoords, s8 off
 
 static void UpdateShadowSpriteInvisible(struct PokemonSpriteVisualizer *data)
 {
-    if (B_ENEMY_MON_SHADOW_STYLE >= GEN_4)
+    if (B_ENEMY_MON_SHADOW_STYLE >= GEN_4 && P_GBA_STYLE_SPECIES_GFX == FALSE)
         return;
 
     if (data->constSpriteValues.frontElevation + data->offsetsSpriteValues.offset_front_elevation == 0)
@@ -825,7 +826,7 @@ static void SpriteCB_EnemyShadowCustom(struct Sprite *shadowSprite)
     struct Sprite *battlerSprite = &gSprites[frontSpriteId];
 
     s8 xOffset = 0, yOffset = 0;
-    if (B_ENEMY_MON_SHADOW_STYLE >= GEN_4)
+    if (B_ENEMY_MON_SHADOW_STYLE >= GEN_4 && P_GBA_STYLE_SPECIES_GFX == FALSE)
     {
         xOffset = shadowSprite->tShadowXOffset + (shadowSprite->tSpriteSide == SPRITE_SIDE_LEFT ? -16 : 16);
         yOffset = shadowSprite->tShadowYOffset + 16;
@@ -870,7 +871,7 @@ static void LoadAndCreateEnemyShadowSpriteCustom(struct PokemonSpriteVisualizer 
     bool8 invisible = FALSE;
     species = SanitizeSpeciesId(species);
 
-    if (B_ENEMY_MON_SHADOW_STYLE >= GEN_4)
+    if (B_ENEMY_MON_SHADOW_STYLE >= GEN_4 && P_GBA_STYLE_SPECIES_GFX == FALSE)
     {
         invisible = gSpeciesInfo[species].suppressEnemyShadow;
 
@@ -1152,7 +1153,7 @@ static void UpdateYPosOffsetText(struct PokemonSpriteVisualizer *data)
 
 static void UpdateShadowSettingsText(struct PokemonSpriteVisualizer *data)
 {
-    if (B_ENEMY_MON_SHADOW_STYLE <= GEN_3)
+    if (B_ENEMY_MON_SHADOW_STYLE <= GEN_3 || P_GBA_STYLE_SPECIES_GFX == TRUE)
         return;
 
     u8 text[16];
@@ -1310,7 +1311,7 @@ void CB2_Pokemon_Sprite_Visualizer(void)
             gSprites[data->iconspriteId].oam.priority = 0;
 
             //Follower Sprite
-            data->followerspriteId = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_MON_BASE + species, SpriteCB_Follower, VISUALIZER_FOLLOWER_X, VISUALIZER_FOLLOWER_Y, 0);
+            data->followerspriteId = CreateObjectGraphicsSprite(OBJ_EVENT_MON + species, SpriteCB_Follower, VISUALIZER_FOLLOWER_X, VISUALIZER_FOLLOWER_Y, 0);
             gSprites[data->followerspriteId].oam.priority = 0;
             gSprites[data->followerspriteId].anims = sAnims_Follower;
 
@@ -1572,7 +1573,7 @@ static void UpdateSubmenuTwoOptionValue(u8 taskId, bool8 increment)
 
 static void UpdateShadowSettingsValue(u8 taskId, bool8 increment)
 {
-    if (B_ENEMY_MON_SHADOW_STYLE <= GEN_3)
+    if (B_ENEMY_MON_SHADOW_STYLE <= GEN_3 || P_GBA_STYLE_SPECIES_GFX == TRUE)
         return;
 
     struct PokemonSpriteVisualizer *data = GetStructPtr(taskId);
@@ -1605,7 +1606,7 @@ static void UpdateShadowSettingsValue(u8 taskId, bool8 increment)
 
 static void UpdateShadowSizeValue(u8 taskId, bool8 increment)
 {
-    if (B_ENEMY_MON_SHADOW_STYLE <= GEN_3)
+    if (B_ENEMY_MON_SHADOW_STYLE <= GEN_3 || P_GBA_STYLE_SPECIES_GFX == TRUE)
         return;
 
     struct PokemonSpriteVisualizer *data = GetStructPtr(taskId);
@@ -1847,7 +1848,7 @@ static void HandleInput_PokemonSpriteVisualizer(u8 taskId)
     }
     else if (data->currentSubmenu == 2) //Submenu 2
     {
-        if (JOY_NEW(A_BUTTON) && B_ENEMY_MON_SHADOW_STYLE >= GEN_4)
+        if (JOY_NEW(A_BUTTON) && B_ENEMY_MON_SHADOW_STYLE >= GEN_4 && P_GBA_STYLE_SPECIES_GFX == FALSE)
         {
             data->currentSubmenu = 3;
             PrintInstructionsOnWindow(data);
@@ -1954,7 +1955,7 @@ static void ReloadPokemonSprites(struct PokemonSpriteVisualizer *data)
     DestroySprite(&gSprites[data->followerspriteId]);
 
     DestroySprite(&gSprites[data->frontShadowSpriteIdPrimary]);
-    if (B_ENEMY_MON_SHADOW_STYLE >= GEN_4)
+    if (B_ENEMY_MON_SHADOW_STYLE >= GEN_4 && P_GBA_STYLE_SPECIES_GFX == FALSE)
         DestroySprite(&gSprites[data->frontShadowSpriteIdSecondary]);
 
     FreeMonSpritesGfx();
@@ -2001,9 +2002,11 @@ static void ReloadPokemonSprites(struct PokemonSpriteVisualizer *data)
     gSprites[data->iconspriteId].oam.priority = 0;
 
     //Follower Sprite
-    u16 graphicsId = (OBJ_EVENT_GFX_MON_BASE + species) & OBJ_EVENT_GFX_SPECIES_MASK;
-    graphicsId |= data->isFemale << OBJ_EVENT_GFX_SPECIES_BITS;
-    graphicsId += data->isShiny ? SPECIES_SHINY_TAG : 0;
+    u16 graphicsId = species + OBJ_EVENT_MON;
+    if (data->isShiny)
+        graphicsId += OBJ_EVENT_MON_SHINY;
+    if (data->isFemale)
+        graphicsId += OBJ_EVENT_MON_FEMALE;
     data->followerspriteId = CreateObjectGraphicsSprite(graphicsId,
                                                         SpriteCB_Follower,
                                                         VISUALIZER_FOLLOWER_X,
