@@ -2027,10 +2027,10 @@ const struct Item gItemsInfo[] =
 
     // Note: This only works with Level Caps
 
-    [ITEM_SUPER_CANDY] =
+    [ITEM_CAP_CANDY] =
     {
-        .name = _("Super Candy"),
-        .pluralName = _("Super Candies"),
+        .name = _("Cap Candy"),
+        .pluralName = _("Cap Candies"),
         .price = 0,
         .holdEffectParam = LEVEL_CAP,
         .description = COMPOUND_STRING(
@@ -2039,7 +2039,7 @@ const struct Item gItemsInfo[] =
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
+        .fieldUseFunc = ItemUseOutOfBattle_EndlessCandy,
         .effect = gItemEffect_RareCandy,
         .flingPower = 30,
         .iconPic = gItemIcon_ExpCandyXL,
@@ -14132,4 +14132,21 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_Repel,
         .iconPalette = gItemIconPalette_Repel,        
     },
+
+    [ITEM_INFINITE_CANDY] = 
+    {
+        .name = _("InfiniteCandy"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Raises the level\n"
+            "of a Pokémon by\n"
+            "one. Infinite use."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EndlessCandy,
+        .effect = gItemEffect_RareCandy,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    }
 };
