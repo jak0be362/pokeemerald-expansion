@@ -14093,4 +14093,20 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+
+    [ITEM_INFINITE_REPEL] =
+    {
+        .name = _("InfiniteRepel"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Repels all wild\n"
+            "Pokémon for any\n"
+            "number of steps."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_InfiniteRepel,
+        .iconPic = gItemIcon_Repel,
+        .iconPalette = gItemIconPalette_Repel,        
+    },
 };
