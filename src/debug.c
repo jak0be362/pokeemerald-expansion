@@ -67,6 +67,7 @@
 #include "constants/species.h"
 #include "constants/weather.h"
 #include "save.h"
+#include "randomizer.h"
 
 // *******************************
 enum DebugMenu
@@ -101,6 +102,9 @@ enum UtilDebugMenu
     DEBUG_UTIL_MENU_ITEM_BERRY_FUNCTIONS,
     DEBUG_UTIL_MENU_ITEM_EWRAM_COUNTERS,
     DEBUG_UTIL_MENU_ITEM_STEVEN_MULTI,
+    #if RANDOMIZER_AVAILABLE == TRUE
+    DEBUG_UTIL_MENU_ITEM_RANDOMIZER,
+    #endif
 };
 
 enum GivePCBagDebugMenu

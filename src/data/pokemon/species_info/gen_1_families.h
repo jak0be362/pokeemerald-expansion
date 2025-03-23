@@ -353,6 +353,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sVenusaurTeachableLearnset,
         .formSpeciesIdTable = sVenusaurFormSpeciesIdTable,
         .formChangeTable = sVenusaurFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 #endif //P_FAMILY_BULBASAUR
@@ -757,6 +758,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sCharizardTeachableLearnset,
         .formSpeciesIdTable = sCharizardFormSpeciesIdTable,
         .formChangeTable = sCharizardFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 #endif //P_FAMILY_CHARMANDER
@@ -1099,6 +1101,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sBlastoiseTeachableLearnset,
         .formSpeciesIdTable = sBlastoiseFormSpeciesIdTable,
         .formChangeTable = sBlastoiseFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 #endif //P_FAMILY_SQUIRTLE
@@ -1406,6 +1409,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sButterfreeTeachableLearnset,
         .formSpeciesIdTable = sButterfreeFormSpeciesIdTable,
         .formChangeTable = sButterfreeFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 #endif //P_FAMILY_CATERPIE
@@ -2383,6 +2387,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sRaticateAlolaLevelUpLearnset,
         .teachableLearnset = sRaticateAlolaTeachableLearnset,
         .formSpeciesIdTable = sRaticateFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_ALOLAN_FORMS
 #endif //P_FAMILY_RATTATA
@@ -2816,6 +2821,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPichuTeachableLearnset,
         .eggMoveLearnset = sPichuEggMoveLearnset,
         .formSpeciesIdTable = sPichuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GEN_2_CROSS_EVOS
 
@@ -2963,6 +2969,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PIKACHU_ROCK_STAR] =
@@ -3014,6 +3021,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PIKACHU_BELLE] =
@@ -3066,6 +3074,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PIKACHU_POP_STAR] =
@@ -3118,6 +3127,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PIKACHU_PHD] =
@@ -3169,6 +3179,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PIKACHU_LIBRE] =
@@ -3220,6 +3231,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
 #endif //P_COSPLAY_PIKACHU_FORMS
@@ -3279,6 +3291,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PIKACHU_HOENN] =
@@ -3334,6 +3347,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PIKACHU_SINNOH] =
@@ -3389,6 +3403,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PIKACHU_UNOVA] =
@@ -3444,6 +3459,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PIKACHU_KALOS] =
@@ -3499,6 +3515,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PIKACHU_ALOLA] =
@@ -3554,6 +3571,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_PIKACHU_PARTNER] =
@@ -3665,6 +3683,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
 #endif //P_CAP_PIKACHU_FORMS
@@ -3725,6 +3744,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
         .formChangeTable = sPikachuFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 
@@ -3804,6 +3824,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPikachuLevelUpLearnset,
         .teachableLearnset = sPikachuTeachableLearnset,
         .formSpeciesIdTable = sPikachuFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
 #define RAICHU_SPEED (P_UPDATED_STATS >= GEN_6 ? 110 : 100)
@@ -7174,6 +7195,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sMeowthEggMoveLearnset,
         .formSpeciesIdTable = sMeowthFormSpeciesIdTable,
         .formChangeTable = sMeowthFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 #endif //P_FAMILY_MEOWTH
@@ -8746,6 +8768,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMachampTeachableLearnset,
         .formSpeciesIdTable = sMachampFormSpeciesIdTable,
         .formChangeTable = sMachampFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 #endif //P_FAMILY_MACHOP
@@ -11853,6 +11876,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sGengarTeachableLearnset,
         .formSpeciesIdTable = sGengarFormSpeciesIdTable,
         .formChangeTable = sGengarFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 #endif //P_FAMILY_GASTLY
@@ -12447,6 +12471,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sKinglerTeachableLearnset,
         .formSpeciesIdTable = sKinglerFormSpeciesIdTable,
         .formChangeTable = sKinglerFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 #endif //P_FAMILY_KRABBY
@@ -12806,7 +12831,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sExeggcuteTeachableLearnset,
         .eggMoveLearnset = sExeggcuteEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_LEAF_STONE, SPECIES_EXEGGUTOR},
-                                {EVO_NONE, 0, SPECIES_EXEGGUTOR_ALOLA}),
+                                {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_EXEGGUTOR_ALOLA}),
     },
 
 #if P_UPDATED_EXP_YIELDS >= GEN_7
@@ -13024,7 +13049,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sCuboneTeachableLearnset,
         .eggMoveLearnset = sCuboneEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_MAROWAK},
-                                {EVO_NONE, 0, SPECIES_MAROWAK_ALOLA},
+                                {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_MAROWAK_ALOLA},
                                 {EVO_NONE, 0, SPECIES_MAROWAK_ALOLA_TOTEM}),
     },
 
@@ -13222,6 +13247,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sMarowakAlolaLevelUpLearnset,
         .teachableLearnset = sMarowakAlolaTeachableLearnset,
         .formSpeciesIdTable = sMarowakFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_ALOLAN_FORMS
 #endif //P_FAMILY_CUBONE
@@ -13745,7 +13771,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sKoffingTeachableLearnset,
         .eggMoveLearnset = sKoffingEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 35, SPECIES_WEEZING},
-                                {EVO_NONE, 0, SPECIES_WEEZING_GALAR}),
+                                {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_WEEZING_GALAR}),
     },
 
     [SPECIES_WEEZING] =
@@ -15290,7 +15316,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMimeJrTeachableLearnset,
         .eggMoveLearnset = sMimeJrEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_MOVE, MOVE_MIMIC, SPECIES_MR_MIME},
-                                {EVO_NONE, 0, SPECIES_MR_MIME_GALAR}),
+                                {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_MR_MIME_GALAR}),
     },
 #endif //P_GEN_4_CROSS_EVOS
 
@@ -17187,6 +17213,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sLaprasEggMoveLearnset,
         .formSpeciesIdTable = sLaprasFormSpeciesIdTable,
         .formChangeTable = sLaprasFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 #endif //P_FAMILY_LAPRAS
@@ -17411,6 +17438,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sEeveeEggMoveLearnset,
         .formSpeciesIdTable = sEeveeFormSpeciesIdTable,
         .formChangeTable = sEeveeFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 
@@ -17487,6 +17515,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sEeveeTeachableLearnset,
         .eggMoveLearnset = sEeveeEggMoveLearnset,
         .formSpeciesIdTable = sEeveeFormSpeciesIdTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_VAPOREON] =
@@ -18896,6 +18925,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sSnorlaxEggMoveLearnset,
         .formSpeciesIdTable = sSnorlaxFormSpeciesIdTable,
         .formChangeTable = sSnorlaxFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 #endif //P_GIGANTAMAX_FORMS
 #endif //P_FAMILY_SNORLAX

@@ -360,7 +360,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sQuilavaLevelUpLearnset,
         .teachableLearnset = sQuilavaTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_TYPHLOSION},
-                                {EVO_NONE, 0, SPECIES_TYPHLOSION_HISUI}),
+                                {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_TYPHLOSION_HISUI}),
     },
 
 #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -3851,7 +3851,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
 #endif //P_FAMILY_MISDREAVUS
 
 #if P_FAMILY_UNOWN
-#define UNOWN_MISC_INFO(letter, _noFlip, frontWidth, frontHeight, backWidth, backHeight, backYOffset)   \
+#define UNOWN_MISC_INFO(letter, _noFlip, frontWidth, frontHeight, backWidth, backHeight, backYOffset) \
     {                                                                                                   \
         .baseHP        = 48,                                                                            \
         .baseAttack    = 72,                                                                            \

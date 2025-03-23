@@ -55,6 +55,7 @@
 #include "list_menu.h"
 #include "malloc.h"
 #include "constants/event_objects.h"
+#include "randomizer.h"
 
 typedef u16 (*SpecialFunc)(void);
 typedef void (*NativeFunc)(struct ScriptContext *ctx);
@@ -2462,6 +2463,14 @@ bool8 ScrCmd_setwildbattle(struct ScriptContext *ctx)
     u8 level2 = ScriptReadByte(ctx);
     u16 item2 = ScriptReadHalfword(ctx);
 
+    #if RANDOMIZER_AVAILABLE == TRUE
+        u8 mapNum = gSaveBlock1Ptr->location.mapNum;
+        u8 mapGroup = gSaveBlock1Ptr->location.mapGroup;
+        u8 localId = gObjectEvents[gSelectedObjectEvent].localId;
+
+        species = RandomizeFixedEncounterMon(species, mapNum, mapGroup, localId);
+    #endif
+
     Script_RequestEffects(SCREFF_V1);
 
     if(species2 == SPECIES_NONE)
@@ -2471,6 +2480,10 @@ bool8 ScrCmd_setwildbattle(struct ScriptContext *ctx)
     }
     else
     {
+        #if RANDOMIZER_AVAILABLE == TRUE
+            species2 = RandomizeFixedEncounterMon(species2, mapNum, mapGroup, localId);
+        #endif
+        
         CreateScriptedDoubleWildMon(species, level, item, species2, level2, item2);
         sIsScriptedWildDouble = TRUE;
     }
