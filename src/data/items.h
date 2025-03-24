@@ -2042,8 +2042,8 @@ const struct Item gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_EndlessCandy,
         .effect = gItemEffect_RareCandy,
         .flingPower = 30,
-        .iconPic = gItemIcon_ExpCandyXL,
-        .iconPalette = gItemIconPalette_ExpCandies,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
     },
 
 
