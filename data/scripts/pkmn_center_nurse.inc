@@ -11,8 +11,6 @@ Common_EventScript_PkmnCenterNurse::
 	call EventScript_PkmnCenterNurse_TakeAndHealPkmn
 	applymovement VAR_0x800B, Movement_PkmnCenterNurse_Bow
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceDown
-	waitmovement 0
 	end
 
 EventScript_PkmnCenterNurse_Goodbye::
