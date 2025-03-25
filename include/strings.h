@@ -130,7 +130,7 @@ extern const u8 gText_Berries[];
 extern const u8 gText_Berry[];
 extern const u8 gText_InfiniteRepelOn[];
 extern const u8 gText_InfiniteRepelOff[];
-//extern const u8 gText_MenuPC[];
+extern const u8 gText_MenuPC[];
 extern const u8 gText_MenuFly[];
 
 extern const u8 gText_Desk[];
