@@ -1548,29 +1548,29 @@ bool32 TrainerIsMatchCallRegistered(s32 i)
 static bool32 UpdateRandomTrainerRematches(const struct RematchTrainer *table, u16 mapGroup, u16 mapNum)
 {
     s32 i;
+    bool32 ret = FALSE;
 
     if (CheckBagHasItem(ITEM_VS_SEEKER, 1) && I_VS_SEEKER_CHARGING != 0)
         return FALSE;
 
-    for (i = 0; i <= REMATCH_SPECIAL_TRAINER_START; i++)
-    {
-        if (!DoesCurrentMapMatchRematchTrainerMap(i,table,mapGroup,mapNum) || IsRematchForbidden(i))
-            continue; // Only check permitted trainers within the current map.
-
-        if (gSaveBlock1Ptr->trainerRematches[i] != 0)
+        for (i = 0; i <= REMATCH_SPECIAL_TRAINER_START; i++)
         {
-            // Trainer already wants a rematch. Don't bother updating it.
-            return TRUE;
+            if (table[i].mapGroup == mapGroup && table[i].mapNum == mapNum && !sub_80B1D94(i))
+            {
+                if (gSaveBlock1Ptr->trainerRematches[i] != 0)
+                {
+                    // Trainer already wants a rematch. Don't bother updating it.
+                    ret = TRUE;
+                }
+                else if (FlagGet(FLAG_MATCH_CALL_REGISTERED + i))
+                {
+                    SetRematchIdForTrainer(table, i);
+                    ret = TRUE;
+                }
+            }
         }
-        else if (TrainerIsMatchCallRegistered(i) && ((Random() % 100) <= 30))
-            // 31% chance of getting a rematch.
-        {
-            SetRematchIdForTrainer(table, i);
-            return TRUE;
-        }
-    }
-
-    return FALSE;
+    
+    return ret;
 }
 #endif //FREE_MATCH_CALL
 
@@ -1706,13 +1706,10 @@ static u32 GetTrainerMatchCallFlag(u32 trainerId)
 }
 
 static void RegisterTrainerInMatchCall(void)
-{
-    if (FlagGet(FLAG_HAS_MATCH_CALL))
-    {
+{  
         u32 matchCallFlagId = GetTrainerMatchCallFlag(TRAINER_BATTLE_PARAM.opponentA);
         if (matchCallFlagId != 0xFFFF)
             FlagSet(matchCallFlagId);
-    }
 }
 
 static bool8 WasSecondRematchWon(const struct RematchTrainer *table, u16 firstBattleTrainerId)
@@ -1750,9 +1747,7 @@ static bool32 HasAtLeastFiveBadges(void)
 void IncrementRematchStepCounter(void)
 {
 #if FREE_MATCH_CALL == FALSE
-    if (!HasAtLeastFiveBadges())
-        return;
-
+    
     if (IsVsSeekerEnabled())
         return;
 
