@@ -323,6 +323,10 @@ PlayersHouse_1F_Text_ItsOverWeMissedHim:
 	.string "I think DAD was on, but we missed him.\n"
 	.string "Too bad.$"
 
+PlayersHouse_1F_Text_TheseShouldHelp:
+	.string "Oh, take these.\n"
+	.string "It'll help on your adventure.$"
+	
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
 	.string "Oh, yes.\n"
 	.string "One of DAD's friends lives in town.\p"
