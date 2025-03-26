@@ -1744,17 +1744,17 @@ static void Task_WaitStopSurfing(u8 taskId)
 #define FISHING_STICKY_BOOST    36
 
 #if I_FISHING_BITE_ODDS >= GEN_4
-    #define FISHING_OLD_ROD_ODDS 75
-    #define FISHING_GOOD_ROD_ODDS 50
-    #define FISHING_SUPER_ROD_ODDS 25
+    #define FISHING_OLD_ROD_ODDS 0
+    #define FISHING_GOOD_ROD_ODDS 0
+    #define FISHING_SUPER_ROD_ODDS 0
 #elif I_FISHING_BITE_ODDS >= GEN_3
-    #define FISHING_OLD_ROD_ODDS 50
-    #define FISHING_GOOD_ROD_ODDS 50
-    #define FISHING_SUPER_ROD_ODDS 50
+    #define FISHING_OLD_ROD_ODDS 0
+    #define FISHING_GOOD_ROD_ODDS 0
+    #define FISHING_SUPER_ROD_ODDS 0
 #else
     #define FISHING_OLD_ROD_ODDS 0
-    #define FISHING_GOOD_ROD_ODDS 33
-    #define FISHING_SUPER_ROD_ODDS 50
+    #define FISHING_GOOD_ROD_ODDS 0
+    #define FISHING_SUPER_ROD_ODDS 0
 #endif
 
 enum
@@ -1833,8 +1833,8 @@ static bool32 Fishing_GetRodOut(struct Task *task)
     };
     const s16 minRounds2[] = {
         [OLD_ROD]   = 1,
-        [GOOD_ROD]  = 3,
-        [SUPER_ROD] = 6
+        [GOOD_ROD]  = 1,
+        [SUPER_ROD] = 1
     };
 
     task->tRoundsPlayed = 0;
@@ -1854,7 +1854,7 @@ static bool32 Fishing_WaitBeforeDots(struct Task *task)
 
     // Wait one second
     task->tFrameCounter++;
-    if (task->tFrameCounter >= 60)
+    if (task->tFrameCounter >= 1)
         task->tStep = FISHING_INIT_DOTS;
     return FALSE;
 }
@@ -1869,11 +1869,9 @@ static bool32 Fishing_InitDots(struct Task *task)
     task->tNumDots = 0;
     randVal = Random();
     randVal %= 10;
-    task->tDotsRequired = randVal + 1;
+    task->tDotsRequired = 0;
     if (task->tRoundsPlayed == 0)
-        task->tDotsRequired = randVal + 4;
-    if (task->tDotsRequired >= 10)
-        task->tDotsRequired = 10;
+        task->tDotsRequired = 0;
     return TRUE;
 }
 
@@ -1975,9 +1973,9 @@ static bool32 Fishing_ChangeMinigame(struct Task *task)
 static bool32 Fishing_WaitForA(struct Task *task)
 {
     const s16 reelTimeouts[3] = {
-        [OLD_ROD]   = 36,
-        [GOOD_ROD]  = 33,
-        [SUPER_ROD] = 30
+        [OLD_ROD]   = 9999,
+        [GOOD_ROD]  = 9999,
+        [SUPER_ROD] = 9999
     };
 
     AlignFishingAnimationFrames();
@@ -2003,8 +2001,8 @@ static bool32 Fishing_CheckMoreDots(struct Task *task)
     const s16 moreDotsChance[][2] =
     {
         [OLD_ROD]   = {0, 0},
-        [GOOD_ROD]  = {40, 10},
-        [SUPER_ROD] = {70, 30}
+        [GOOD_ROD]  = {0, 0},
+        [SUPER_ROD] = {0, 0}
     };
 
     AlignFishingAnimationFrames();
@@ -2016,7 +2014,7 @@ static bool32 Fishing_CheckMoreDots(struct Task *task)
     else if (task->tRoundsPlayed < 2)
     {
         // probability of having to play another round
-        s16 probability = Random() % 100;
+        s16 probability = 0;
 
         if (moreDotsChance[task->tFishingRod][task->tRoundsPlayed] > probability)
             task->tStep = FISHING_INIT_DOTS;
