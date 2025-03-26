@@ -547,7 +547,7 @@ static bool32 InitStartMenuStep(void)
         break;
     case 4:
         if (PrintStartMenuActions(&sInitStartMenuData[1], 2))
-            sInitStartMenuData[0]++;
+        sInitStartMenuData[0]++;
         break;
     case 5:
         sStartMenuCursorPos = InitMenuNormal(GetStartMenuWindowId(), FONT_NORMAL, 0, 9, 16, sNumStartMenuActions, sStartMenuCursorPos);
