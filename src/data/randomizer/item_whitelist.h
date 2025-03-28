@@ -262,6 +262,7 @@ static const u16 sRandomizerItemWhitelist[] =
     ITEM_WHIPPED_DREAM,
     ITEM_SACHET,
     ITEM_OVAL_STONE,
+    ITEM_LINKING_CORD,
     // ITEM_STRAWBERRY_SWEET,
     // ITEM_LOVE_SWEET,
     // ITEM_BERRY_SWEET,
@@ -316,8 +317,13 @@ static const u16 sRandomizerItemWhitelist[] =
     // ITEM_DARK_MEMORY,
     // ITEM_STEEL_MEMORY,
     // ITEM_FAIRY_MEMORY,
+    // Form Change
     ITEM_RUSTED_SWORD,
     ITEM_RUSTED_SHIELD,
+    ITEM_ROTOM_CATALOG,
+    ITEM_ADAMANT_CRYSTAL,
+    ITEM_LUSTROUS_GLOBE,
+    ITEM_GRISEOUS_CORE,
     // Colored Orbs
     ITEM_RED_ORB,
     ITEM_BLUE_ORB,

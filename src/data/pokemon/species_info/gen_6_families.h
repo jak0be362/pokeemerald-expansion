@@ -679,6 +679,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sGreninjaTeachableLearnset,
         .formSpeciesIdTable = sGreninjaFormSpeciesIdTable,
         .formChangeTable = sGreninjaBattleBondFormChangeTable,
+        .randomizerMode = MON_RANDOMIZER_INVALID,
     },
 
     [SPECIES_GRENINJA_ASH] =
