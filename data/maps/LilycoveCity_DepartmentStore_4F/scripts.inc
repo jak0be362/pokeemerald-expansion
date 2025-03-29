@@ -31,7 +31,7 @@ LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
 	.2byte ITEM_TM_CALM_MIND
 	.2byte ITEM_TM_ROAR
 	.2byte ITEM_TM_TOXIC
-	.2byte ITEM_TM_HAIL
+	@.2byte ITEM_TM_HAIL
 	.2byte ITEM_TM_BULK_UP
 	.2byte ITEM_TM_BULLET_SEED
 	.2byte ITEM_TM_HIDDEN_POWER
