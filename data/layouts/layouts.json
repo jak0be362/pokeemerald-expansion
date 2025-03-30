@@ -2594,7 +2594,7 @@
     {
       "id": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_4F",
       "name": "LilycoveCity_DepartmentStore_4F_Layout",
-      "width": 18,
+      "width": 37,
       "height": 8,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_Shop",
