@@ -1538,7 +1538,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Ability Patch"),
         .pluralName = _("Ability Patches"),
-        .price = 150000,
+        .price = 15000,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
             "Turns the ability\n"
