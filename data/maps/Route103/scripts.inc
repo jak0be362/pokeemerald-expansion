@@ -93,11 +93,13 @@ Route103_EventScript_StartBrendanBattleMudkip::
 Route103_EventScript_AfterMayBattle::
 	msgbox Route103_Text_MayTimeToHeadBack, MSGBOX_DEFAULT
 	goto Route103_EventScript_RivalExit
+	setflag FLAG_HIDE_OLDALE_TOWN_RIVAL
 	end
 
 Route103_EventScript_AfterBrendanBattle::
 	msgbox Route103_Text_BrendanTimeToHeadBack, MSGBOX_DEFAULT
 	goto Route103_EventScript_RivalExit
+	setflag FLAG_HIDE_OLDALE_TOWN_RIVAL
 	end
 
 Route103_EventScript_RivalExit::
