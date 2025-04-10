@@ -4411,8 +4411,8 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sGoomyLevelUpLearnset,
         .teachableLearnset = sGoomyTeachableLearnset,
         .eggMoveLearnset = sGoomyEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_SLIGGOO},
-                                {EVO_NONE, 0, SPECIES_SLIGGOO_HISUI}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_SLIGGOO},
+                                {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_SLIGGOO_HISUI}),
     },
 
     [SPECIES_SLIGGOO] =
@@ -4481,8 +4481,8 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sSliggooLevelUpLearnset,
         .teachableLearnset = sSliggooTeachableLearnset,
         .formSpeciesIdTable = sSliggooFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL_RAIN, 50, SPECIES_GOODRA},
-                                {EVO_LEVEL_FOG, 50, SPECIES_GOODRA}),
+        .evolutions = EVOLUTION({EVO_LEVEL_RAIN, 45, SPECIES_GOODRA},
+                                {EVO_LEVEL_FOG, 45, SPECIES_GOODRA}),
     },
 
     [SPECIES_GOODRA] =
@@ -4618,8 +4618,8 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sSliggooHisuiLevelUpLearnset,
         .teachableLearnset = sSliggooHisuiTeachableLearnset,
         .formSpeciesIdTable = sSliggooFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL_RAIN, 50, SPECIES_GOODRA_HISUI},
-                                {EVO_LEVEL_FOG, 50, SPECIES_GOODRA_HISUI}),
+        .evolutions = EVOLUTION({EVO_LEVEL_RAIN, 45, SPECIES_GOODRA_HISUI},
+                                {EVO_LEVEL_FOG, 45, SPECIES_GOODRA_HISUI}),
     },
 
     [SPECIES_GOODRA_HISUI] =
