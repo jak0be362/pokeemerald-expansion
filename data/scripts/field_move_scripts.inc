@@ -247,7 +247,7 @@ EventScript_UseStrength::
 
 EventScript_ActivateStrength::
 	setflag FLAG_SYS_USE_STRENGTH
-	msgbox Text_MonUsedStrength, MSGBOX_DEFAULT
+@	msgbox Text_MonUsedStrength, MSGBOX_DEFAULT
 	releaseall
 	end
 
