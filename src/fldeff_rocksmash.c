@@ -20,7 +20,7 @@
 #include "constants/songs.h"
 
 static void Task_DoFieldMove_Init(u8 taskId);
-//static void Task_DoFieldMove_ShowMonAfterPose(u8 taskId);
+// static void Task_DoFieldMove_ShowMonAfterPose(u8 taskId);
 static void Task_DoFieldMove_WaitForMon(u8 taskId);
 static void Task_DoFieldMove_RunFunc(u8 taskId);
 
@@ -74,7 +74,7 @@ static void Task_DoFieldMove_Init(u8 taskId)
             // Do field move pose
             // SetPlayerAvatarFieldMove();
             // ObjectEventSetHeldMovement(&gObjectEvents[objEventId], MOVEMENT_ACTION_START_ANIM_IN_DIRECTION);
-            // gTasks[taskId].func = Task_DoFieldMove_ShowMonAfterPose;
+            gTasks[taskId].func = Task_DoFieldMove_WaitForMon;
         }
     }
 }
