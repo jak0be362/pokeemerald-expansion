@@ -111,14 +111,14 @@ static bool8 EscalatorWarpIn_End(struct Task *);
 
 static void Task_UseWaterfall(u8);
 static bool8 WaterfallFieldEffect_Init(struct Task *, struct ObjectEvent *);
-static bool8 WaterfallFieldEffect_ShowMon(struct Task *, struct ObjectEvent *);
+//static bool8 WaterfallFieldEffect_ShowMon(struct Task *, struct ObjectEvent *);
 static bool8 WaterfallFieldEffect_WaitForShowMon(struct Task *, struct ObjectEvent *);
 static bool8 WaterfallFieldEffect_RideUp(struct Task *, struct ObjectEvent *);
 static bool8 WaterfallFieldEffect_ContinueRideOrEnd(struct Task *, struct ObjectEvent *);
 
 static void Task_UseDive(u8);
 static bool8 DiveFieldEffect_Init(struct Task *);
-static bool8 DiveFieldEffect_ShowMon(struct Task *);
+//static bool8 DiveFieldEffect_ShowMon(struct Task *);
 static bool8 DiveFieldEffect_TryWarp(struct Task *);
 
 static void Task_LavaridgeGymB1FWarp(u8);
@@ -195,16 +195,16 @@ static void SpriteCB_FieldMoveMonSlideOffscreen(struct Sprite *);
 
 static void Task_SurfFieldEffect(u8);
 static void SurfFieldEffect_Init(struct Task *);
-static void SurfFieldEffect_FieldMovePose(struct Task *);
-static void SurfFieldEffect_ShowMon(struct Task *);
+//static void SurfFieldEffect_FieldMovePose(struct Task *);
+//static void SurfFieldEffect_ShowMon(struct Task *);
 static void SurfFieldEffect_JumpOnSurfBlob(struct Task *);
 static void SurfFieldEffect_End(struct Task *);
 
 static void SpriteCB_NPCFlyOut(struct Sprite *);
 
 static void Task_FlyOut(u8);
-static void FlyOutFieldEffect_FieldMovePose(struct Task *);
-static void FlyOutFieldEffect_ShowMon(struct Task *);
+//static void FlyOutFieldEffect_FieldMovePose(struct Task *);
+//static void FlyOutFieldEffect_ShowMon(struct Task *);
 static void FlyOutFieldEffect_BirdLeaveBall(struct Task *);
 static void FlyOutFieldEffect_WaitBirdLeave(struct Task *);
 static void FlyOutFieldEffect_BirdSwoopDown(struct Task *);
@@ -653,7 +653,7 @@ static bool8 (*const sEscalatorWarpInFieldEffectFuncs[])(struct Task *) =
 static bool8 (*const sWaterfallFieldEffectFuncs[])(struct Task *, struct ObjectEvent *) =
 {
     WaterfallFieldEffect_Init,
-    WaterfallFieldEffect_ShowMon,
+    //WaterfallFieldEffect_ShowMon,
     WaterfallFieldEffect_WaitForShowMon,
     WaterfallFieldEffect_RideUp,
     WaterfallFieldEffect_ContinueRideOrEnd,
@@ -662,7 +662,7 @@ static bool8 (*const sWaterfallFieldEffectFuncs[])(struct Task *, struct ObjectE
 static bool8 (*const sDiveFieldEffectFuncs[])(struct Task *) =
 {
     DiveFieldEffect_Init,
-    DiveFieldEffect_ShowMon,
+    //DiveFieldEffect_ShowMon,
     DiveFieldEffect_TryWarp,
 };
 
@@ -1892,18 +1892,18 @@ static bool8 WaterfallFieldEffect_Init(struct Task *task, struct ObjectEvent *ob
     return FALSE;
 }
 
-static bool8 WaterfallFieldEffect_ShowMon(struct Task *task, struct ObjectEvent *objectEvent)
-{
-    LockPlayerFieldControls();
-    if (!ObjectEventIsMovementOverridden(objectEvent))
-    {
-        ObjectEventClearHeldMovementIfFinished(objectEvent);
-        gFieldEffectArguments[0] = task->tMonId;
-        FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
-        task->tState++;
-    }
-    return FALSE;
-}
+// static bool8 WaterfallFieldEffect_ShowMon(struct Task *task, struct ObjectEvent *objectEvent)
+// {
+//     LockPlayerFieldControls();
+//     if (!ObjectEventIsMovementOverridden(objectEvent))
+//     {
+//         ObjectEventClearHeldMovementIfFinished(objectEvent);
+//         gFieldEffectArguments[0] = task->tMonId;
+//         FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
+//         task->tState++;
+//     }
+//     return FALSE;
+// }
 
 static bool8 WaterfallFieldEffect_WaitForShowMon(struct Task *task, struct ObjectEvent *objectEvent)
 {
@@ -1966,14 +1966,14 @@ static bool8 DiveFieldEffect_Init(struct Task *task)
     return FALSE;
 }
 
-static bool8 DiveFieldEffect_ShowMon(struct Task *task)
-{
-    LockPlayerFieldControls();
-    gFieldEffectArguments[0] = task->data[15];
-    FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
-    task->data[0]++;
-    return FALSE;
-}
+// static bool8 DiveFieldEffect_ShowMon(struct Task *task)
+// {
+//     LockPlayerFieldControls();
+//     gFieldEffectArguments[0] = task->data[15];
+//     FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
+//     task->data[0]++;
+//     return FALSE;
+// }
 
 static bool8 DiveFieldEffect_TryWarp(struct Task *task)
 {
@@ -3043,8 +3043,8 @@ u8 FldEff_UseSurf(void)
 
 static void (*const sSurfFieldEffectFuncs[])(struct Task *) = {
     SurfFieldEffect_Init,
-    SurfFieldEffect_FieldMovePose,
-    SurfFieldEffect_ShowMon,
+    // SurfFieldEffect_FieldMovePose,
+    // SurfFieldEffect_ShowMon,
     SurfFieldEffect_JumpOnSurfBlob,
     SurfFieldEffect_End,
 };
@@ -3067,29 +3067,29 @@ static void SurfFieldEffect_Init(struct Task *task)
     task->tState++;
 }
 
-static void SurfFieldEffect_FieldMovePose(struct Task *task)
-{
-    struct ObjectEvent *objectEvent;
-    objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
-    if (!ObjectEventIsMovementOverridden(objectEvent) || ObjectEventClearHeldMovementIfFinished(objectEvent))
-    {
-        SetPlayerAvatarFieldMove();
-        ObjectEventSetHeldMovement(objectEvent, MOVEMENT_ACTION_START_ANIM_IN_DIRECTION);
-        task->tState++;
-    }
-}
+// static void SurfFieldEffect_FieldMovePose(struct Task *task)
+// {
+//     struct ObjectEvent *objectEvent;
+//     objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
+//     if (!ObjectEventIsMovementOverridden(objectEvent) || ObjectEventClearHeldMovementIfFinished(objectEvent))
+//     {
+//         SetPlayerAvatarFieldMove();
+//         ObjectEventSetHeldMovement(objectEvent, MOVEMENT_ACTION_START_ANIM_IN_DIRECTION);
+//         task->tState++;
+//     }
+// }
 
-static void SurfFieldEffect_ShowMon(struct Task *task)
-{
-    struct ObjectEvent *objectEvent;
-    objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
-    if (ObjectEventCheckHeldMovementStatus(objectEvent))
-    {
-        gFieldEffectArguments[0] = task->tMonId | SHOW_MON_CRY_NO_DUCKING;
-        FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
-        task->tState++;
-    }
-}
+// static void SurfFieldEffect_ShowMon(struct Task *task)
+// {
+//     struct ObjectEvent *objectEvent;
+//     objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
+//     if (ObjectEventCheckHeldMovementStatus(objectEvent))
+//     {
+//         gFieldEffectArguments[0] = task->tMonId | SHOW_MON_CRY_NO_DUCKING;
+//         FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
+//         task->tState++;
+//     }
+// }
 
 static void SurfFieldEffect_JumpOnSurfBlob(struct Task *task)
 {
@@ -3222,8 +3222,8 @@ u8 FldEff_UseFly(void)
 }
 
 static void (*const sFlyOutFieldEffectFuncs[])(struct Task *) = {
-    FlyOutFieldEffect_FieldMovePose,
-    FlyOutFieldEffect_ShowMon,
+    // FlyOutFieldEffect_FieldMovePose,
+    // FlyOutFieldEffect_ShowMon,
     FlyOutFieldEffect_BirdLeaveBall,
     FlyOutFieldEffect_WaitBirdLeave,
     FlyOutFieldEffect_BirdSwoopDown,
@@ -3238,31 +3238,31 @@ static void Task_FlyOut(u8 taskId)
     sFlyOutFieldEffectFuncs[gTasks[taskId].tState](&gTasks[taskId]);
 }
 
-static void FlyOutFieldEffect_FieldMovePose(struct Task *task)
-{
-    struct ObjectEvent *objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
-    if (!ObjectEventIsMovementOverridden(objectEvent) || ObjectEventClearHeldMovementIfFinished(objectEvent))
-    {
-        task->tAvatarFlags = gPlayerAvatar.flags;
-        gPlayerAvatar.preventStep = TRUE;
-        SetPlayerAvatarStateMask(PLAYER_AVATAR_FLAG_ON_FOOT);
-        SetPlayerAvatarFieldMove();
-        ObjectEventSetHeldMovement(objectEvent, MOVEMENT_ACTION_START_ANIM_IN_DIRECTION);
-        task->tState++;
-    }
-}
+// static void FlyOutFieldEffect_FieldMovePose(struct Task *task)
+// {
+//     struct ObjectEvent *objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
+//     if (!ObjectEventIsMovementOverridden(objectEvent) || ObjectEventClearHeldMovementIfFinished(objectEvent))
+//     {
+//         task->tAvatarFlags = gPlayerAvatar.flags;
+//         gPlayerAvatar.preventStep = TRUE;
+//         SetPlayerAvatarStateMask(PLAYER_AVATAR_FLAG_ON_FOOT);
+//         SetPlayerAvatarFieldMove();
+//         ObjectEventSetHeldMovement(objectEvent, MOVEMENT_ACTION_START_ANIM_IN_DIRECTION);
+//         task->tState++;
+//     }
+// }
 
-static void FlyOutFieldEffect_ShowMon(struct Task *task)
-{
-    struct ObjectEvent *objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
-    if (ObjectEventClearHeldMovementIfFinished(objectEvent))
-    {
-        task->tState++;
-        gFieldEffectArguments[0] = task->tMonId;
-        if (!gSkipShowMonAnim)
-            FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
-    }
-}
+// static void FlyOutFieldEffect_ShowMon(struct Task *task)
+// {
+//     struct ObjectEvent *objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
+//     if (ObjectEventClearHeldMovementIfFinished(objectEvent))
+//     {
+//         task->tState++;
+//         gFieldEffectArguments[0] = task->tMonId;
+//         if (!gSkipShowMonAnim)
+//             FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
+//     }
+// }
 
 static void FlyOutFieldEffect_BirdLeaveBall(struct Task *task)
 {
