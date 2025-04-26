@@ -1,12 +1,16 @@
 Common_EventScript_PkmnCenterNurse::
 	lock
 	faceplayer
-	setvar VAR_0x8004, 0
-	specialvar VAR_RESULT, CountPlayerTrainerStars
-	goto_if_eq VAR_RESULT, 4, EventScript_PkmnCenterNurse_GoldCard
-	msgbox gText_WouldYouLikeToRestYourPkmn, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, EventScript_PkmnCenterNurse_HealPkmn
-	goto_if_eq VAR_RESULT, NO, EventScript_PkmnCenterNurse_Goodbye
+@	setvar VAR_0x8004, 0
+@	specialvar VAR_RESULT, CountPlayerTrainerStars
+@	goto_if_eq VAR_RESULT, 4, EventScript_PkmnCenterNurse_GoldCard
+@	msgbox gText_WouldYouLikeToRestYourPkmn, MSGBOX_YESNO
+@	goto_if_eq VAR_RESULT, YES, EventScript_PkmnCenterNurse_HealPkmn
+@	goto_if_eq VAR_RESULT, NO, EventScript_PkmnCenterNurse_Goodbye
+	incrementgamestat GAME_STAT_USED_POKECENTER
+	call EventScript_PkmnCenterNurse_TakeAndHealPkmn
+	applymovement VAR_0x800B, Movement_PkmnCenterNurse_Bow
+	waitmovement 0
 	end
 
 EventScript_PkmnCenterNurse_Goodbye::
