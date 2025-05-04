@@ -1892,18 +1892,18 @@ static bool8 WaterfallFieldEffect_Init(struct Task *task, struct ObjectEvent *ob
     return FALSE;
 }
 
-// static bool8 WaterfallFieldEffect_ShowMon(struct Task *task, struct ObjectEvent *objectEvent)
-// {
-//     LockPlayerFieldControls();
-//     if (!ObjectEventIsMovementOverridden(objectEvent))
-//     {
-//         ObjectEventClearHeldMovementIfFinished(objectEvent);
-//         gFieldEffectArguments[0] = task->tMonId;
-//         FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
-//         task->tState++;
-//     }
-//     return FALSE;
-// }
+static bool8 WaterfallFieldEffect_ShowMon(struct Task *task, struct ObjectEvent *objectEvent)
+{
+    LockPlayerFieldControls();
+    if (!ObjectEventIsMovementOverridden(objectEvent))
+    {
+        ObjectEventClearHeldMovementIfFinished(objectEvent);
+        gFieldEffectArguments[0] = task->tMonId;
+        // FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
+        task->tState++;
+    }
+    return FALSE;
+}
 
 static bool8 WaterfallFieldEffect_WaitForShowMon(struct Task *task, struct ObjectEvent *objectEvent)
 {
