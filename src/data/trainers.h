@@ -13,7 +13,7 @@
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = FALSE,
+        .doubleBattle = FALSE,
         .partySize = 0,
         .party = (const struct TrainerMon[])
         {
@@ -26,9 +26,9 @@
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -56,9 +56,9 @@
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -73,7 +73,7 @@
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -86,7 +86,7 @@
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -116,9 +116,9 @@
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -133,7 +133,7 @@
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -146,9 +146,9 @@
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -163,7 +163,7 @@
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -176,9 +176,9 @@
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -193,7 +193,7 @@
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -206,9 +206,9 @@
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -223,7 +223,7 @@
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -236,9 +236,9 @@
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -253,7 +253,7 @@
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -267,7 +267,7 @@
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -329,9 +329,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -346,7 +346,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 9,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -360,7 +360,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -390,7 +390,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -420,7 +420,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COLLECTOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -451,9 +451,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -468,7 +468,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -481,9 +481,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -498,7 +498,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 34,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -511,9 +511,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -528,7 +528,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 11,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -541,7 +541,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -571,7 +571,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -601,7 +601,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -639,9 +639,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -656,7 +656,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 15,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -669,7 +669,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -699,9 +699,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -715,7 +715,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -728,9 +728,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -744,7 +744,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -757,9 +757,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -773,7 +773,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -786,7 +786,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -817,9 +817,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -833,7 +833,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 28,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -847,9 +847,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -864,7 +864,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -878,9 +878,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -895,7 +895,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -908,7 +908,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_EXPERT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -939,7 +939,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
         .items = { ITEM_SUPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -969,9 +969,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -986,7 +986,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 31,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -1000,7 +1000,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -1031,7 +1031,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -1062,7 +1062,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
         .items = { ITEM_SUPER_POTION, ITEM_SUPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -1101,9 +1101,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -1118,7 +1118,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 31,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -1132,7 +1132,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -1163,7 +1163,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -1202,7 +1202,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -1242,7 +1242,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -1273,7 +1273,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -1304,7 +1304,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -1343,7 +1343,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -1382,7 +1382,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -1420,9 +1420,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -1444,7 +1444,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 23,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -1457,7 +1457,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -1516,7 +1516,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -1560,9 +1560,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -1584,7 +1584,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -1597,9 +1597,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -1621,7 +1621,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -1634,9 +1634,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -1658,7 +1658,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 33,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -1671,9 +1671,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -1695,7 +1695,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -1903,7 +1903,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -1934,9 +1934,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -1951,7 +1951,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -1965,9 +1965,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -1982,7 +1982,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -1996,7 +1996,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -2027,7 +2027,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -2058,7 +2058,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -2089,7 +2089,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -2119,9 +2119,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_TUBER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -2143,7 +2143,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 13,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -2156,7 +2156,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_TUBER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -2186,9 +2186,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_TUBER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -2203,7 +2203,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -2216,9 +2216,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_TUBER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -2240,7 +2240,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -2253,9 +2253,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_TUBER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -2277,7 +2277,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -2290,9 +2290,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_TUBER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -2314,7 +2314,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 33,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -2327,9 +2327,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_TUBER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -2351,7 +2351,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -2365,9 +2365,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -2388,7 +2388,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -2402,9 +2402,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -2425,7 +2425,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -2439,9 +2439,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -2463,7 +2463,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -2477,9 +2477,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -2499,7 +2499,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -2513,7 +2513,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 5,
         .party = (const struct TrainerMon[])
@@ -2603,7 +2603,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -2642,7 +2642,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -2673,7 +2673,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_SUPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -2712,7 +2712,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -2743,7 +2743,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -2774,7 +2774,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -2813,7 +2813,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -2860,7 +2860,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -2899,7 +2899,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -2938,7 +2938,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -2977,7 +2977,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -3016,7 +3016,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -3055,7 +3055,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -3087,9 +3087,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -3109,7 +3109,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -3124,9 +3124,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -3147,7 +3147,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -3162,9 +3162,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -3184,7 +3184,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -3199,7 +3199,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -3260,7 +3260,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -3292,7 +3292,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_SUPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -3332,9 +3332,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -3349,7 +3349,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -3364,9 +3364,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -3381,7 +3381,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -3396,9 +3396,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -3413,7 +3413,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -3428,7 +3428,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -3468,7 +3468,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -3500,7 +3500,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -3540,7 +3540,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -3580,7 +3580,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -3620,7 +3620,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -3660,7 +3660,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -3699,7 +3699,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -3730,7 +3730,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -3761,7 +3761,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -3792,9 +3792,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -3809,7 +3809,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -3823,9 +3823,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -3840,7 +3840,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -3854,7 +3854,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -3885,7 +3885,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -3916,7 +3916,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -3947,7 +3947,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -3987,9 +3987,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4005,7 +4005,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 7,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4020,7 +4020,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -4066,7 +4066,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -4106,9 +4106,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4129,7 +4129,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 11,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4144,9 +4144,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4162,7 +4162,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 40,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4177,9 +4177,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4195,7 +4195,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4210,9 +4210,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4228,7 +4228,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4243,9 +4243,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4261,7 +4261,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4276,9 +4276,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4294,7 +4294,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 33,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4309,9 +4309,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4334,7 +4334,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4348,9 +4348,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4379,9 +4379,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4410,9 +4410,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4441,7 +4441,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -4486,9 +4486,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4503,7 +4503,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 40,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4517,9 +4517,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4534,7 +4534,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 40,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4548,7 +4548,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -4607,7 +4607,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -4638,7 +4638,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -4683,7 +4683,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -4728,7 +4728,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -4773,7 +4773,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -4818,9 +4818,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4836,7 +4836,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 7,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4850,7 +4850,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -4881,9 +4881,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4899,7 +4899,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4913,9 +4913,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4931,7 +4931,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4945,9 +4945,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4963,7 +4963,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -4977,9 +4977,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -4995,7 +4995,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 33,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -5009,9 +5009,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -5034,7 +5034,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -5047,9 +5047,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -5064,7 +5064,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 19,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -5078,7 +5078,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -5108,9 +5108,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -5125,7 +5125,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 31,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -5139,9 +5139,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -5169,9 +5169,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -5186,7 +5186,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -5199,7 +5199,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -5229,7 +5229,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -5259,7 +5259,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -5289,9 +5289,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -5306,7 +5306,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -5319,9 +5319,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -5336,7 +5336,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-            .lvl = 21,
+            .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             },
@@ -5349,7 +5349,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -5379,7 +5379,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -5417,13 +5417,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_CARVANHA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 26,
@@ -5439,13 +5447,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_TENTACRUEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 26,
@@ -5461,13 +5477,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_CARVANHA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 26,
@@ -5483,7 +5507,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -5513,7 +5537,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -5543,13 +5567,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_CARVANHA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
@@ -5565,13 +5597,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_TENTACRUEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
@@ -5587,13 +5627,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_HORSEA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
@@ -5609,13 +5657,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_GYARADOS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
@@ -5631,7 +5687,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -5669,13 +5725,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_GYARADOS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
@@ -5691,13 +5755,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_PELIPPER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
@@ -5713,7 +5785,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -5743,7 +5815,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -5773,13 +5845,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SHARPEDO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
@@ -5795,13 +5875,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SEALEO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
@@ -5817,13 +5905,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SPHEAL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
@@ -5839,13 +5935,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_GYARADOS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
@@ -5861,7 +5965,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -5899,7 +6003,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -5929,15 +6033,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SHARPEDO,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 30,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 30,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -5951,15 +6063,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SHARPEDO,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
+            .lvl = 33,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 33,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -5973,7 +6093,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6003,7 +6123,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6033,15 +6153,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_MACHOP,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
+            .lvl = 13,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 13,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -6055,7 +6183,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6085,15 +6213,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_HARIYAMA,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -6107,7 +6243,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6137,15 +6273,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_MACHOP,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 19,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 19,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -6159,15 +6303,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_MACHOKE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(13, 13, 13, 13, 13, 13),
+            .lvl = 27,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -6181,7 +6333,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6211,7 +6363,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -6249,7 +6401,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -6296,7 +6448,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6326,15 +6478,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_MACHOP,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 19,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 19,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -6348,15 +6508,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_HARIYAMA,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 32,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 32,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -6370,7 +6538,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6414,7 +6582,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6444,13 +6612,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_CARVANHA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 32,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 32,
@@ -6466,7 +6642,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6496,7 +6672,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6526,7 +6702,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6556,7 +6732,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -6594,7 +6770,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -6632,7 +6808,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -6670,7 +6846,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -6708,15 +6884,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_NUMEL,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 23,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 23,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -6730,7 +6914,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6760,15 +6944,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_NUMEL,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 23,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 23,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -6782,15 +6974,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SLUGMA,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 23,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 23,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -6804,15 +7004,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SLUGMA,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(14, 14, 14, 14, 14, 14),
+            .lvl = 23,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 23,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -6826,7 +7034,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6856,7 +7064,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6886,7 +7094,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6916,7 +7124,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6946,7 +7154,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -6976,9 +7184,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -6996,6 +7204,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_SLASH,
 //             },
             },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 23,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_BEAU] =
@@ -7005,7 +7221,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -7064,13 +7280,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_NUZLEAF,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 18,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 18,
@@ -7086,7 +7310,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -7116,13 +7340,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_KECLEON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 24,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 24,
@@ -7138,7 +7370,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -7169,13 +7401,21 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SHROOMISH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 21,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 21,
@@ -7191,13 +7431,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SANDSHREW,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 18,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 18,
@@ -7213,7 +7461,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -7243,7 +7491,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -7273,7 +7521,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -7311,7 +7559,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -7349,15 +7597,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SURSKIT,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 26,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -7371,7 +7627,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -7409,7 +7665,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -7447,7 +7703,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -7485,7 +7741,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -7515,7 +7771,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -7553,7 +7809,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -7591,7 +7847,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -7637,7 +7893,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 5,
         .party = (const struct TrainerMon[])
@@ -7692,9 +7948,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -7709,6 +7965,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_HIDDEN_POWER,
 //             },
             },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 15,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_PRESTON] =
@@ -7718,15 +7982,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_KIRLIA,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -7740,15 +8012,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_RALTS,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -7762,15 +8042,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_GIRAFARIG,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -7784,7 +8072,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -7822,7 +8110,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -7852,13 +8140,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SOLROCK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 31,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 31,
@@ -7874,7 +8170,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -7904,7 +8200,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -7934,7 +8230,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -7964,7 +8260,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -7995,9 +8291,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -8012,6 +8308,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_HIDDEN_POWER,
 //             },
             },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 16,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_HANNAH] =
@@ -8022,15 +8326,23 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_KIRLIA,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -8045,15 +8357,23 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_XATU,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -8068,15 +8388,23 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_KADABRA,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -8091,7 +8419,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -8130,7 +8458,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -8161,7 +8489,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -8192,7 +8520,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -8223,7 +8551,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -8254,7 +8582,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -8285,7 +8613,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -8315,13 +8643,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_MANECTRIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 29,
@@ -8337,7 +8673,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -8367,13 +8703,21 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_ZANGOOSE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 45,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 45,
@@ -8389,15 +8733,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_MANECTRIC,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 34,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -8411,7 +8763,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -8455,7 +8807,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -8498,7 +8850,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -8558,7 +8910,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .mugshotColor = MUGSHOT_COLOR_PURPLE,
         .partySize = 5,
@@ -8651,7 +9003,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .mugshotColor = MUGSHOT_COLOR_GREEN,
         .partySize = 5,
@@ -8744,7 +9096,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .mugshotColor = MUGSHOT_COLOR_PINK,
         .partySize = 5,
@@ -8836,7 +9188,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .mugshotColor = MUGSHOT_COLOR_BLUE,
         .partySize = 5,
@@ -8929,7 +9281,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_POTION, ITEM_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -8990,7 +9342,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_SUPER_POTION, ITEM_SUPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -9051,7 +9403,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_SUPER_POTION, ITEM_SUPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -9128,7 +9480,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_HYPER_POTION, ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -9204,7 +9556,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_HYPER_POTION, ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -9281,7 +9633,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_HYPER_POTION, ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER | AI_FLAG_RISKY,
         .partySize = 5,
         .party = (const struct TrainerMon[])
@@ -9449,7 +9801,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_HYPER_POTION, ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 5,
         .party = (const struct TrainerMon[])
@@ -9539,15 +9891,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SCHOOL_KID_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_RALTS,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 9,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 9,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -9561,15 +9921,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SCHOOL_KID_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_RALTS,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 17,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 17,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -9583,7 +9951,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SCHOOL_KID_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -9621,7 +9989,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SCHOOL_KID_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -9651,7 +10019,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SCHOOL_KID_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -9681,7 +10049,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SCHOOL_KID_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -9711,7 +10079,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SCHOOL_KID_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -9750,15 +10118,23 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SHROOMISH,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 9,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 9,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -9773,7 +10149,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -9804,7 +10180,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -9835,7 +10211,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -9866,7 +10242,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -9897,7 +10273,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -10186,7 +10562,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEFAN_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -10218,15 +10594,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEFAN_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SKITTY,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .heldItem = ITEM_ORAN_BERRY,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 15,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 15,
             .nature = NATURE_HARDY,
@@ -10241,7 +10625,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEFAN_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -10351,15 +10735,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEFAN_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SKITTY,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .heldItem = ITEM_ORAN_BERRY,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 29,
             .nature = NATURE_HARDY,
@@ -10374,15 +10766,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEFAN_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_SKITTY,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .heldItem = ITEM_ORAN_BERRY,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 32,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 32,
             .nature = NATURE_HARDY,
@@ -10397,15 +10797,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEFAN_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_DELCATTY,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .heldItem = ITEM_ORAN_BERRY,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 35,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 35,
             .nature = NATURE_HARDY,
@@ -10420,15 +10828,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEFAN_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_DELCATTY,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .heldItem = ITEM_SITRUS_BERRY,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 38,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 38,
             .nature = NATURE_HARDY,
@@ -10444,9 +10860,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -10454,6 +10870,14 @@ F_TRAINER_FEMALE |
             .gender = TRAINER_MON_RANDOM_GENDER,
             .heldItem = ITEM_ORAN_BERRY,
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+            .lvl = 17,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 17,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -10468,15 +10892,23 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_PIKACHU,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .heldItem = ITEM_ORAN_BERRY,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 30,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 30,
             .nature = NATURE_HARDY,
@@ -10492,7 +10924,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -10534,7 +10966,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -10567,7 +10999,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -10600,7 +11032,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -10633,7 +11065,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -10666,7 +11098,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -10698,15 +11130,23 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_EXPERT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
             .species = SPECIES_HARIYAMA,
             .gender = TRAINER_MON_RANDOM_GENDER,
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
+            .lvl = 27,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
             .lvl = 27,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -10720,9 +11160,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_EXPERT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -10740,6 +11180,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_DIG,
 //             },
             },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 33,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_TIMOTHY_3] =
@@ -10749,9 +11197,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_EXPERT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -10769,6 +11217,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_DIG,
 //             },
             },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_TIMOTHY_4] =
@@ -10778,9 +11234,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_EXPERT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -10798,6 +11254,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_DIG,
 //             },
             },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 39,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_TIMOTHY_5] =
@@ -10807,9 +11271,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_EXPERT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -10827,6 +11291,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_DIG,
 //             },
             },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 42,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_VICKY] =
@@ -10837,9 +11309,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -10857,6 +11329,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_DETECT,
 //             },
             },
+            {
+            .species = SPECIES_MEDITITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
+            .lvl = 18,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_SHELBY_1] =
@@ -10867,7 +11347,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -10898,7 +11378,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -10929,7 +11409,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -10960,7 +11440,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -10991,7 +11471,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11021,11 +11501,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_POOCHYENA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_POOCHYENA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -11043,7 +11531,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11073,9 +11561,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -11090,6 +11578,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_TACKLE,
 //             },
             },
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 10,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_TOMMY] =
@@ -11099,7 +11595,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11129,11 +11625,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MACHOP,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 9,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MACHOP,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -11151,7 +11655,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11196,7 +11700,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11242,7 +11746,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11286,11 +11790,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_TRAPINCH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 19,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_TRAPINCH,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -11308,11 +11820,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_ARON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 19,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_ARON,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -11330,11 +11850,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MIGHTYENA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 27,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MIGHTYENA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -11352,7 +11880,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11382,7 +11910,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -11420,7 +11948,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -11458,7 +11986,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11488,7 +12016,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11518,7 +12046,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11549,7 +12077,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .mugshotColor = MUGSHOT_COLOR_YELLOW,
         .partySize = 6,
@@ -11655,7 +12183,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -11693,7 +12221,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -11731,7 +12259,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -11769,7 +12297,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -11807,11 +12335,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_TENTACOOL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 11,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_TENTACOOL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -11829,7 +12365,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -11875,11 +12411,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BARBOACH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 19,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BARBOACH,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -11897,7 +12441,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11927,11 +12471,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_TENTACOOL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 16,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_TENTACOOL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -11949,7 +12501,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -11979,7 +12531,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -12017,7 +12569,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -12063,7 +12615,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -12109,7 +12661,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -12155,7 +12707,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -12217,7 +12769,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -12255,7 +12807,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -12285,11 +12837,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNEMITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 16,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNEMITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12307,11 +12867,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNEMITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 30,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNEMITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12329,11 +12897,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNEMITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
+            .lvl = 33,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNEMITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12351,11 +12927,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNETON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNETON,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12373,11 +12957,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNETON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+            .lvl = 39,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNETON,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12396,11 +12988,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNEMITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 16,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNEMITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12419,7 +13019,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -12458,11 +13058,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNEMITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 28,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNEMITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12481,11 +13089,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNEMITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
+            .lvl = 31,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNEMITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12504,11 +13120,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNETON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNETON,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12527,11 +13151,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNETON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+            .lvl = 37,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNETON,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12549,11 +13181,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUNNING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_DODUO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 17,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_DODUO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12571,11 +13211,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUNNING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_DODUO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 28,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_DODUO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12593,11 +13241,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUNNING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_DODUO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
+            .lvl = 31,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_DODUO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12615,11 +13271,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUNNING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_DODRIO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_DODRIO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12637,11 +13301,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUNNING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_DODRIO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+            .lvl = 37,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_DODRIO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12660,11 +13332,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_DODUO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 17,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_DODUO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12683,11 +13363,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_DODUO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 28,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_DODUO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12706,11 +13394,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_DODUO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
+            .lvl = 31,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_DODUO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12729,11 +13425,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_DODRIO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_DODRIO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12752,11 +13456,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_DODRIO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+            .lvl = 37,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_DODRIO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12774,7 +13486,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -12804,7 +13516,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -12834,11 +13546,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 35,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12856,7 +13576,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -12886,7 +13606,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -12916,11 +13636,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 39,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12938,11 +13666,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
+            .lvl = 42,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12960,11 +13696,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARMIE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
+            .lvl = 45,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARMIE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -12982,11 +13726,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARMIE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+            .lvl = 48,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARMIE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13005,11 +13757,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13028,7 +13788,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13059,11 +13819,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13082,11 +13850,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 35,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13105,7 +13881,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13136,11 +13912,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 39,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13159,11 +13943,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
+            .lvl = 42,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13182,11 +13974,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARMIE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
+            .lvl = 45,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARMIE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13205,11 +14005,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARMIE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+            .lvl = 48,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARMIE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13227,7 +14035,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_DRAGON_TAMER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13257,7 +14065,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_DRAGON_TAMER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13287,7 +14095,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_DRAGON_TAMER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13317,7 +14125,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_DRAGON_TAMER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -13355,7 +14163,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_DRAGON_TAMER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -13394,9 +14202,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_DRAGON_TAMER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -13414,6 +14222,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_EMBER,
 //             },
             },
+            {
+            .species = SPECIES_BAGON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_PERRY] =
@@ -13423,11 +14239,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_WINGULL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_WINGULL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13445,7 +14269,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13475,11 +14299,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SWELLOW,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SWELLOW,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13497,7 +14329,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -13535,11 +14367,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SKARMORY,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+            .lvl = 30,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SKARMORY,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13557,7 +14397,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13587,7 +14427,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13617,7 +14457,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13647,11 +14487,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SWABLU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SWABLU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13669,7 +14517,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -13707,7 +14555,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13737,7 +14585,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13767,7 +14615,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13797,7 +14645,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13827,7 +14675,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13857,7 +14705,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13887,11 +14735,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_TROPIUS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_TROPIUS,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13909,11 +14765,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_NINJASK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_NINJASK,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -13931,7 +14795,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -13963,7 +14827,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
         {
@@ -14003,10 +14867,18 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
-        .partySize = 1,
+        .doubleBattle = TRUE,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MARILL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MARILL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -14024,7 +14896,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
         {
@@ -14082,7 +14954,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
         {
@@ -14111,7 +14983,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
         {
@@ -14181,7 +15053,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
         {
@@ -14251,7 +15123,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
         {
@@ -14319,7 +15191,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
         {
@@ -14391,11 +15263,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MEDITITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(15, 15, 15, 15, 15, 15),
+            .lvl = 13,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MEDITITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -14414,11 +15294,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MEDITITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
+            .lvl = 13,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MEDITITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -14437,7 +15325,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -14468,11 +15356,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MEDITITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 27,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MEDITITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -14491,11 +15387,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BRELOOM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 27,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BRELOOM,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -14514,7 +15418,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -14545,7 +15449,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -14576,7 +15480,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -14607,7 +15511,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -14638,9 +15542,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -14658,6 +15562,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_SUNNY_DAY,
 //             },
             },
+            {
+            .species = SPECIES_NUMEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 19,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_CLARISSA] =
@@ -14668,7 +15580,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -14699,9 +15611,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -14719,6 +15631,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_WATER_PULSE,
 //             },
             },
+            {
+            .species = SPECIES_CASTFORM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+            .lvl = 30,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_MADELINE_2] =
@@ -14729,9 +15649,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -14749,6 +15669,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_SUNNY_DAY,
 //             },
             },
+            {
+            .species = SPECIES_NUMEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_MADELINE_3] =
@@ -14759,9 +15687,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -14779,6 +15707,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_SUNNY_DAY,
 //             },
             },
+            {
+            .species = SPECIES_NUMEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
+            .lvl = 32,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_MADELINE_4] =
@@ -14789,7 +15725,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -14834,7 +15770,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -14879,7 +15815,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -14910,11 +15846,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MARILL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MARILL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -14933,11 +15877,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_WAILMER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_WAILMER,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -14956,7 +15908,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -14987,11 +15939,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_GOLDEEN,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_GOLDEEN,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15010,7 +15970,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15041,11 +16001,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_GOLDEEN,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_GOLDEEN,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15064,7 +16032,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -15103,11 +16071,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_WAILMER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_WAILMER,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15126,11 +16102,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MARILL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MARILL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15149,11 +16133,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_LUVDISC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_LUVDISC,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15172,11 +16164,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SEAKING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SEAKING,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15195,7 +16195,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15226,11 +16226,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_GOLDEEN,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_GOLDEEN,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15249,7 +16257,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15280,11 +16288,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_LUVDISC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_LUVDISC,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15303,11 +16319,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SEAKING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SEAKING,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15326,11 +16350,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_AZUMARILL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_AZUMARILL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15349,7 +16381,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15380,11 +16412,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SEAKING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SEAKING,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15403,7 +16443,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15434,7 +16474,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15465,7 +16505,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15496,11 +16536,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SEAKING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 35,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SEAKING,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15519,11 +16567,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_WAILMER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 38,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_WAILMER,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15542,11 +16598,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_WAILMER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 41,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_WAILMER,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -15565,7 +16629,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15596,7 +16660,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -15635,7 +16699,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15680,7 +16744,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15725,7 +16789,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15756,7 +16820,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15787,7 +16851,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15818,7 +16882,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -15856,9 +16920,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -15876,6 +16940,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_MIRROR_COAT,
 //             },
             },
+            {
+            .species = SPECIES_WOBBUFFET,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 32,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_IRENE] =
@@ -15886,7 +16958,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -15917,7 +16989,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -15956,7 +17028,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -15995,7 +17067,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -16034,7 +17106,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -16380,7 +17452,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -16410,11 +17482,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_WINGULL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 13,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_WINGULL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -16432,7 +17512,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -16462,7 +17542,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -16500,7 +17580,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -16530,7 +17610,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -16568,7 +17648,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -16598,7 +17678,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -16636,7 +17716,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -16674,7 +17754,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -16712,7 +17792,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -16750,11 +17830,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_NUMEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 23,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_NUMEL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -16773,7 +17861,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -16821,11 +17909,19 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_ABSOL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 27,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_ABSOL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -16843,9 +17939,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -16863,6 +17959,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_SLUDGE_BOMB,
 //             },
             },
+            {
+            .species = SPECIES_KOFFING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 31,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_KAYLEY] =
@@ -16873,9 +17977,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -16893,6 +17997,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_SOLAR_BEAM,
 //             },
             },
+            {
+            .species = SPECIES_CASTFORM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 31,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_AURON] =
@@ -16902,7 +18014,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_EXPERT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -16932,7 +18044,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -16964,9 +18076,9 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -16984,6 +18096,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_THUNDERBOLT,
 //             },
             },
+            {
+            .species = SPECIES_MANECTRIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_REYNA] =
@@ -16994,7 +18114,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -17024,11 +18144,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_WAILMER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_WAILMER,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -17046,7 +18174,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_EXPERT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -17076,7 +18204,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COLLECTOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -17106,7 +18234,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COLLECTOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -17136,7 +18264,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_ADMIN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17174,7 +18302,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COLLECTOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -17204,7 +18332,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COLLECTOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -17234,7 +18362,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COLLECTOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -17264,7 +18392,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COLLECTOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -17295,7 +18423,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 5,
         .party = (const struct TrainerMon[])
@@ -17384,11 +18512,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_TREECKO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_TREECKO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -17406,7 +18542,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17444,7 +18580,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17482,11 +18618,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_TORCHIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_TORCHIC,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -17504,7 +18648,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17542,7 +18686,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17580,11 +18724,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MUDKIP,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MUDKIP,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -17602,7 +18754,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17640,7 +18792,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17679,7 +18831,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 1,
         .party = (const struct TrainerMon[])
@@ -17702,7 +18854,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17741,7 +18893,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17780,11 +18932,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_TORCHIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_TORCHIC,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -17803,7 +18963,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17842,7 +19002,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17881,11 +19041,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MUDKIP,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MUDKIP,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -17904,7 +19072,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17943,7 +19111,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -17981,7 +19149,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -18043,11 +19211,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_PINSIR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 27,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_PINSIR,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -18065,7 +19241,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -18109,7 +19285,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -18171,7 +19347,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -18233,7 +19409,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -18295,7 +19471,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -18358,7 +19534,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -18422,7 +19598,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -18452,11 +19628,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SANDSLASH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SANDSLASH,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -18475,7 +19659,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -18538,7 +19722,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -18601,7 +19785,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -18664,7 +19848,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -18727,11 +19911,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BRELOOM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+            .lvl = 27,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BRELOOM,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -18750,7 +19942,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -18789,11 +19981,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_CACTURNE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+            .lvl = 39,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_CACTURNE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -18812,11 +20012,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BRELOOM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(7, 7, 7, 7, 7, 7),
+            .lvl = 31,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BRELOOM,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -18835,11 +20043,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BRELOOM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(8, 8, 8, 8, 8, 8),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BRELOOM,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -18858,11 +20074,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BRELOOM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(9, 9, 9, 9, 9, 9),
+            .lvl = 37,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BRELOOM,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -18881,7 +20105,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -18913,7 +20137,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -18945,7 +20169,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -18985,7 +20209,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19017,7 +20241,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19049,7 +20273,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19081,7 +20305,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19113,7 +20337,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19143,11 +20367,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNEMITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 21,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNEMITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19165,7 +20397,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19196,7 +20428,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19227,7 +20459,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19257,7 +20489,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19287,7 +20519,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19317,11 +20549,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MACHOP,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 13,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MACHOP,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19340,11 +20580,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MEDITITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
+            .lvl = 13,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MEDITITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19362,11 +20610,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAKUHITA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
+            .lvl = 13,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAKUHITA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19385,11 +20641,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MEDITITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MEDITITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19407,11 +20671,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_CARVANHA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_CARVANHA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19431,7 +20703,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19472,11 +20744,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_TENTACRUEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 35,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_TENTACRUEL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19494,11 +20774,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_ZUBAT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 20,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_ZUBAT,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19516,11 +20804,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SHARPEDO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SHARPEDO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19539,11 +20835,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_GIRAFARIG,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 37,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_GIRAFARIG,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19561,11 +20865,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SPOINK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SPOINK,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19584,11 +20896,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_KADABRA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_KADABRA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19606,11 +20926,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_GIRAFARIG,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_GIRAFARIG,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19628,11 +20956,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_WOBBUFFET,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_WOBBUFFET,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19651,7 +20987,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19681,11 +21017,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BALTOY,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 32,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BALTOY,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19703,11 +21047,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_ZUBAT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 32,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_ZUBAT,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19725,11 +21077,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MIGHTYENA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 32,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MIGHTYENA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19747,11 +21107,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BALTOY,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 32,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BALTOY,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19770,11 +21138,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_NATU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 36,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_NATU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19792,7 +21168,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19822,7 +21198,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19852,7 +21228,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_EXPERT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19883,11 +21259,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -19906,7 +21290,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_AQUA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -19936,7 +21320,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_ADMIN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -19983,7 +21367,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20013,7 +21397,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20044,7 +21428,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20075,7 +21459,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .items = { ITEM_SUPER_POTION, ITEM_SUPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -20114,7 +21498,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .items = { ITEM_SUPER_POTION, ITEM_SUPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -20153,7 +21537,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20184,7 +21568,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20215,11 +21599,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MARILL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 9,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MARILL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -20238,7 +21630,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -20277,7 +21669,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20308,7 +21700,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20339,7 +21731,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20370,7 +21762,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -20409,11 +21801,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_ODDISH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 16,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_ODDISH,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -20432,7 +21832,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -20471,11 +21871,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_LUVDISC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 40,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_LUVDISC,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -20494,7 +21902,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20524,7 +21932,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20554,7 +21962,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -20600,7 +22008,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20630,7 +22038,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20660,7 +22068,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20690,11 +22098,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_NINJASK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 25,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_NINJASK,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -20712,7 +22128,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20742,11 +22158,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_NINJASK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+            .lvl = 27,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_NINJASK,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -20764,7 +22188,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20794,7 +22218,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -20832,7 +22256,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -20878,7 +22302,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20908,7 +22332,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -20946,7 +22370,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -20976,7 +22400,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -21006,7 +22430,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -21044,11 +22468,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 8,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_GEODUDE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -21066,7 +22498,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -21096,9 +22528,9 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -21114,6 +22546,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_WATER_GUN,
 //             },
             },
+            {
+            .species = SPECIES_WAILMER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 9,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_MIKE_1] =
@@ -21123,7 +22563,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -21163,7 +22603,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -21201,7 +22641,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -21247,7 +22687,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -21293,7 +22733,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -21339,7 +22779,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -21596,11 +23036,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_GOLDEEN,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 13,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_GOLDEEN,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -21619,9 +23067,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -21639,6 +23087,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_BIND,
 //             },
             },
+            {
+            .species = SPECIES_KECLEON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 23,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_VIVIAN] =
@@ -21649,7 +23105,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -21694,9 +23150,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -21714,6 +23170,14 @@ F_TRAINER_FEMALE |
 //                 MOVE_FIRE_PUNCH,
 //             },
             },
+            {
+            .species = SPECIES_MEDITITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 23,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_HIDEO] =
@@ -21723,7 +23187,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -21767,7 +23231,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -21811,7 +23275,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -21855,7 +23319,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -21886,7 +23350,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -21924,11 +23388,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_WALLY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_RALTS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
+            .lvl = 16,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_RALTS,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -21947,7 +23419,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 5,
         .party = (const struct TrainerMon[])
@@ -22037,7 +23509,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 5,
         .party = (const struct TrainerMon[])
@@ -22127,7 +23599,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 5,
         .party = (const struct TrainerMon[])
@@ -22217,7 +23689,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 5,
         .party = (const struct TrainerMon[])
@@ -22306,7 +23778,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -22352,7 +23824,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -22398,7 +23870,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -22445,7 +23917,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -22492,7 +23964,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -22539,7 +24011,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -22585,7 +24057,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -22623,7 +24095,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -22653,7 +24125,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -22693,7 +24165,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -22724,7 +24196,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -22754,11 +24226,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MACHOKE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MACHOKE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -22776,7 +24256,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -22814,7 +24294,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -22844,7 +24324,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -22875,11 +24355,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_CHINCHOU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 34,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_CHINCHOU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -23489,7 +24977,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -23535,7 +25023,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RICH_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -23568,7 +25056,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .items = { ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -23599,11 +25087,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGIKARP,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 9,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGIKARP,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -23622,11 +25118,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MARILL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 13,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MARILL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -23644,7 +25148,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_TUBER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -23674,7 +25178,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEFAN_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_TWINS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -23706,7 +25210,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -23737,11 +25241,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAGNEMITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 15,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAGNEMITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -23759,11 +25271,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_VOLTORB,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 15,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_VOLTORB,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -23781,11 +25301,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MAKUHITA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 15,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MAKUHITA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -23803,11 +25331,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SANDSHREW,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 19,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SANDSHREW,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -23826,11 +25362,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_ROSELIA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 18,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_ROSELIA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -23849,11 +25393,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_SHROOMISH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 18,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_SHROOMISH,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -23871,11 +25423,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_NUMEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 18,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_NUMEL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -23894,7 +25454,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -23924,7 +25484,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -23954,7 +25514,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -23984,7 +25544,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24015,7 +25575,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24045,11 +25605,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FISHERMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BARBOACH,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 19,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BARBOACH,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24068,11 +25636,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_NUZLEAF,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 19,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_NUZLEAF,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24090,7 +25666,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -24128,11 +25704,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_ZUBAT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_ZUBAT,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24150,11 +25734,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_POOCHYENA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_POOCHYENA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24172,11 +25764,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_NUMEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_NUMEL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24194,7 +25794,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24224,7 +25824,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24254,11 +25854,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MIGHTYENA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MIGHTYENA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24276,11 +25884,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_ZUBAT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_ZUBAT,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24298,11 +25914,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_POOCHYENA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_POOCHYENA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24320,11 +25944,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_ZUBAT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_ZUBAT,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24342,11 +25974,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MIGHTYENA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MIGHTYENA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24364,11 +26004,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BALTOY,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BALTOY,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24386,11 +26034,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_NUMEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_NUMEL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24408,11 +26064,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_ZUBAT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_ZUBAT,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24431,11 +26095,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MIGHTYENA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MIGHTYENA,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24454,11 +26126,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_NUMEL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_NUMEL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24477,11 +26157,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BALTOY,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 29,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BALTOY,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24499,7 +26187,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_ADMIN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 4,
         .party = (const struct TrainerMon[])
@@ -24547,7 +26235,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24577,7 +26265,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_MAGMA_LEADER_MAXIE,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MAGMA,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -24615,11 +26303,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_TENTACOOL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 15,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_TENTACOOL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24638,11 +26334,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MARILL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 15,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MARILL,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24660,7 +26364,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24690,7 +26394,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24720,11 +26424,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_STARYU,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_STARYU,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -24742,7 +26454,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -24782,7 +26494,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -24820,7 +26532,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24851,7 +26563,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_GIRL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24881,7 +26593,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24911,7 +26623,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_CAMPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24941,7 +26653,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -24972,7 +26684,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25003,7 +26715,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25033,7 +26745,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25064,7 +26776,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25095,7 +26807,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25126,7 +26838,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25156,7 +26868,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25186,7 +26898,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_YOUNGSTER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25217,11 +26929,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_DODUO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 17,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_DODUO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -25240,11 +26960,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_RALTS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 17,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_RALTS,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -25263,11 +26991,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MEDITITE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 17,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MEDITITE,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -25287,7 +27023,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25317,11 +27053,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_MANECTRIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_MANECTRIC,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -25339,7 +27083,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_KINDLER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25370,11 +27114,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_GOLDEEN,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_GOLDEEN,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -25393,9 +27145,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -25412,6 +27164,15 @@ F_TRAINER_FEMALE |
 //                 MOVE_THUNDER_WAVE,
 //             },
             },
+            
+            {
+            .species = SPECIES_MANECTRIC,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+            .lvl = 30,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
         },
     },
     [DIFFICULTY_NORMAL][TRAINER_CALLIE] =
@@ -25422,7 +27183,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25452,7 +27213,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25482,7 +27243,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -25545,7 +27306,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -25609,7 +27370,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25640,7 +27401,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -25671,7 +27432,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -28785,7 +30546,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -28827,11 +30588,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_COOL,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_TROPIUS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
+            .lvl = 30,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_TROPIUS,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -28850,7 +30619,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -28956,9 +30725,9 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
             {
@@ -28978,11 +30747,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_DOME_ACE_TUCKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BELDUM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BELDUM,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -29000,11 +30777,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PALACE_MAVEN_SPENSER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BELDUM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BELDUM,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -29023,11 +30808,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BELDUM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BELDUM,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -29045,11 +30838,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_FACTORY_HEAD_NOLAND,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BELDUM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BELDUM,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -29068,11 +30869,19 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BELDUM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BELDUM,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -29090,11 +30899,19 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PYRAMID_KING_BRANDON,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
-        .partySize = 1,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BELDUM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BELDUM,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -29112,7 +30929,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -29142,7 +30959,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29180,7 +30997,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29218,7 +31035,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29256,7 +31073,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29294,7 +31111,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29332,7 +31149,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29370,7 +31187,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SAILOR,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29408,7 +31225,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -29438,7 +31255,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29476,7 +31293,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29514,7 +31331,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_SWIMMER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29552,7 +31369,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -29582,7 +31399,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29620,7 +31437,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29658,7 +31475,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_BLACK_BELT,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29698,7 +31515,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -29730,7 +31547,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29770,7 +31587,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29810,7 +31627,7 @@ F_TRAINER_FEMALE |
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_COOL,
         .items = { ITEM_HYPER_POTION },
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29848,7 +31665,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29886,7 +31703,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29924,7 +31741,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -29962,7 +31779,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GUITARIST,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -30000,7 +31817,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -30030,7 +31847,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -30068,7 +31885,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -30106,7 +31923,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_HIKER,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_BASIC_TRAINER,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -30145,7 +31962,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -30208,7 +32025,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -30271,7 +32088,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -30334,7 +32151,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 6,
         .party = (const struct TrainerMon[])
@@ -30397,7 +32214,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
@@ -30428,7 +32245,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -30467,7 +32284,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -30506,7 +32323,7 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = 3,
         .party = (const struct TrainerMon[])
@@ -30545,10 +32362,18 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
-        .partySize = 1,
+        .doubleBattle = TRUE,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_CHIMECHO,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 41,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_CHIMECHO,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -30566,7 +32391,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .doublebattle = TRUE,
+        .doubleBattle = TRUE,
         .partySize = 2,
         .party = (const struct TrainerMon[])
         {
@@ -30595,10 +32420,18 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_RICH,
-        .doublebattle = TRUE,
-        .partySize = 1,
+        .doubleBattle = TRUE,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_WOBBUFFET,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 41,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_WOBBUFFET,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -30616,10 +32449,18 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RED,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
-        .partySize = 1,
+        .doubleBattle = TRUE,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_CHARMANDER,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_CHARMANDER,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -30638,10 +32479,18 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
-        .partySize = 1,
+        .doubleBattle = TRUE,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_BULBASAUR,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_BULBASAUR,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -30659,10 +32508,18 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_RS_BRENDAN,
         .encounterMusic_gender =
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
-        .partySize = 1,
+        .doubleBattle = TRUE,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_GROUDON,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_GROUDON,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -30681,10 +32538,18 @@ F_TRAINER_FEMALE |
         .encounterMusic_gender =
 F_TRAINER_FEMALE | 
             TRAINER_ENCOUNTER_MUSIC_MALE,
-        .doublebattle = TRUE,
-        .partySize = 1,
+        .doubleBattle = TRUE,
+        .partySize = 2,
         .party = (const struct TrainerMon[])
         {
+            {
+            .species = SPECIES_KYOGRE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
             {
             .species = SPECIES_KYOGRE,
             .gender = TRAINER_MON_RANDOM_GENDER,
